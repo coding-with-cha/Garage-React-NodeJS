@@ -1,0 +1,2502 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Cormorant:ital,wght@0,300;1,500&family=Dancing+Script&family=Dosis:wght@200&family=El+Messiri&family=Playfair+Display&family=Roboto:wght@100&family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Cormorant:ital,wght@0,300;1,500&family=Dancing+Script&family=El+Messiri&family=Playfair+Display&family=Roboto:wght@100&family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Cormorant:ital,wght@0,300;1,500&family=Dancing+Script&family=Dosis:wght@200&family=El+Messiri&family=IBM+Plex+Sans+Thai+Looped:wght@100;400;500&family=Playfair+Display&family=Roboto:wght@100&family=Zen+Kurenaido&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+.navBar {
+  -webkit-box-shadow: 0 1px 6px 0 rgba(128, 128, 128, 0.185);
+          box-shadow: 0 1px 6px 0 rgba(128, 128, 128, 0.185);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: fixed;
+  height: 70px;
+  background: white;
+  width: 100%;
+  z-index: 2;
+}
+
+.navBar .logo {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Zen Kurenaido', sans-serif;
+  color: #008060;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  margin-top: 5px;
+  margin-left: 5%;
+  position: relative;
+  margin-right: 25%;
+  background: transparent;
+}
+
+.navBar .logo span {
+  background: transparent;
+}
+
+.navBar .searchNavBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 1.2%;
+  background: transparent;
+  text-decoration: none;
+}
+
+.navBar .searchNavBar img {
+  width: 32px;
+  height: 32px;
+  background: transparent;
+}
+
+.navBar .searchNavBar h1 {
+  background: transparent;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: 22px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  color: #008060;
+}
+
+.navBar .Favoris {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: .7%;
+  margin-left: 25%;
+  background: transparent;
+}
+
+.navBar .Favoris img {
+  width: 27px;
+  height: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.navBar .Favoris h1 {
+  background: transparent;
+  margin-top: -.001%;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  color: #008060;
+}
+
+.navBar .logIn {
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: .6%;
+  margin-left: 2%;
+}
+
+.navBar .logIn .Link {
+  background: transparent;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navBar .logIn .Link img {
+  background: transparent;
+  width: 25px;
+  height: 25px;
+}
+
+.navBar .logIn .Link h1 {
+  background: transparent;
+  margin-top: -.001%;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  color: #008060;
+}
+
+.navBar .rotateA {
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-left: 54%;
+  margin-top: 5.9px;
+  background: transparent;
+}
+
+.navBar .afterRotate {
+  margin-left: 18%;
+}
+
+.navBar .ProfDash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: .48%;
+  margin-left: 2%;
+  background: transparent;
+  text-decoration: none;
+}
+
+.navBar .ProfDash img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  padding-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.navBar .ProfDash h1 {
+  background: transparent;
+  margin-top: -.001%;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  color: #008060;
+}
+
+.navBar .logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: .7%;
+  margin-left: 1.5%;
+  background: transparent;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navBar .logout img {
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.navBar .logout h1 {
+  background: transparent;
+  margin-top: -.001%;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  color: #008060;
+}
+
+.navBar .ShoppingCard {
+  margin-top: .9%;
+  margin-left: 1.5%;
+  background: transparent;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navBar .ShoppingCard img {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.home {
+  position: relative;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .bodyHome {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 400px;
+}
+
+.home .bodyHome .imgShop {
+  background: transparent;
+  margin-top: 3%;
+  margin-left: 35%;
+}
+
+.home .bodyHome .middleBodyHome {
+  background: transparent;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 670px;
+}
+
+.home .bodyHome .middleBodyHome h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  background: transparent;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+.home .bodyHome .middleBodyHome h1 img {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+}
+
+.home .bodyHome .middleBodyHome :nth-child(3) {
+  margin-bottom: 5%;
+}
+
+.home .bodyHome .middleBodyHome .link {
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  background: transparent;
+  color: #008060;
+  text-decoration: none;
+  font-size: 25px;
+  margin-top: 5%;
+  margin-left: 25%;
+  border: 1px solid white;
+  background-color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: .5%;
+  padding-bottom: .7%;
+  border-radius: 50px;
+}
+
+.home .bodyHome .middleBodyHome :hover {
+  background-color: transparent;
+  color: white;
+  font-weight: normal;
+}
+
+.home .bodyHome .icons {
+  background: transparent;
+  margin-left: 2%;
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .bodyHome .icons .icon23 {
+  margin-left: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .bodyHome .icons .icon23 img:nth-child(1) {
+  padding-right: 30%;
+}
+
+.home .bodyHome .topBodyHome {
+  width: 900px;
+  height: 15px;
+  background: white;
+  border: 1px solid transparent;
+  padding: 0;
+  position: relative;
+}
+
+.home .bodyHome .topBodyHome span {
+  background: transparent;
+  color: #444546;
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+.home .bodyHome .homeSection1 {
+  background: transparent;
+  margin-top: 10%;
+}
+
+.home .bodyHome .homeSection1 h1 {
+  color: #252525;
+  background: transparent;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.home .bodyHome .homeSection1 .wrapper {
+  max-height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 950px;
+}
+
+.home .bodyHome .homeSection1 .wrapper .item {
+  text-decoration: none;
+  background: transparent;
+  overflow-y: hidden;
+  min-width: 250px;
+  height: 150px;
+  line-height: 110px;
+  text-align: center;
+  margin-right: 2%;
+}
+
+.home .bodyHome .homeSection1 .wrapper .item img {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.home .bodyHome .homeSection1 .wrapper .item .text {
+  position: relative;
+  width: 100%;
+  margin-top: -15%;
+  background: transparent;
+}
+
+.home .bodyHome .homeSection1 .wrapper .item .text h1 {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  background: transparent;
+  font-size: 25px;
+  letter-spacing: 3px;
+  text-shadow: 2px 0 0 #008060, -2px 0 0 #008060, 0 2px 0 #008060, 0 -2px 0 #008060, 1px 1px #008060, -1px -1px 0 #008060, 1px -1px 0 #008060, -1px 1px 0 #008060;
+}
+
+.home .bodyHome .homeSection1 .wrapper::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 10px;
+  width: 5px;
+}
+
+.home .bodyHome .homeSection1 .wrapper::-webkit-scrollbar-thumb {
+  background: linear-gradient(60deg, #dbcbac, #91bdb2);
+  border-radius: 10px;
+}
+
+.home .bodyHome .homeSection1 .wrapper::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.home .bodyHome .homeSection1-2 {
+  margin-top: 15%;
+  width: 955px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(228, 165, 28, 0.199);
+  border-radius: 5px;
+  padding-left: 5%;
+}
+
+.home .bodyHome .homeSection1-2 h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  margin-top: 8%;
+  line-height: 30px;
+}
+
+.home .bodyHome .homeSection1-2 h2 {
+  padding-bottom: 2%;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.home .bodyHome .homeSection1-2 .annonceLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  color: white;
+  background-color: rgba(255, 68, 0, 0.788);
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+.home .bodyHome .homeSection1-2 img {
+  width: 250px;
+  height: 250px;
+  margin-left: 13%;
+}
+
+.home .bodyHome .homeSection2 {
+  margin-top: 7%;
+  background: transparent;
+  width: 955px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7%;
+}
+
+.home .bodyHome .homeSection2 p {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  background: transparent;
+  font-size: 15px;
+}
+
+.home .bodyHome .homeSection2 p .link {
+  text-decoration: none;
+  color: #4183D7;
+  background: transparent;
+}
+
+.home .bodyHome .homeSection2 p :hover {
+  text-decoration: underline;
+}
+
+.home .bodyHome .footer {
+  background-color: #afb1b0;
+  width: 1684px;
+  margin-left: -50%;
+  padding-left: 30%;
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
+.home .bodyHome .footer .haut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home .bodyHome .footer .haut .part1, .home .bodyHome .footer .haut .part2, .home .bodyHome .footer .haut .part3, .home .bodyHome .footer .haut .part4 {
+  width: 280px;
+  margin-bottom: 2%;
+}
+
+.home .bodyHome .footer .haut .part1 h1, .home .bodyHome .footer .haut .part2 h1, .home .bodyHome .footer .haut .part3 h1, .home .bodyHome .footer .haut .part4 h1 {
+  font-size: 20px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  margin-bottom: -3%;
+}
+
+.home .bodyHome .footer .haut .part1 hr, .home .bodyHome .footer .haut .part2 hr, .home .bodyHome .footer .haut .part3 hr, .home .bodyHome .footer .haut .part4 hr {
+  width: 280px;
+}
+
+.home .bodyHome .footer .haut .part1 h2, .home .bodyHome .footer .haut .part2 h2, .home .bodyHome .footer .haut .part3 h2, .home .bodyHome .footer .haut .part4 h2 {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.home .bodyHome .footer .bas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loginPage {
+  height: 700px;
+  padding-top: 5%;
+}
+
+.loginPage .loginForm {
+  margin-top: 10%;
+  background: transparent;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.loginPage .loginForm .formulaire {
+  background: transparent;
+}
+
+.home {
+  padding-top: 17%;
+}
+
+.home .WandP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .WandP .welcomeText {
+  padding-top: 5%;
+  margin-top: -13%;
+  margin-left: -10%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #202020;
+}
+
+.home .WandP .welcomeText h1 {
+  font-size: 4.5rem;
+  line-height: 120px;
+  margin-bottom: 3%;
+}
+
+.home .WandP .welcomeText .annonceLink {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background: linear-gradient(60deg, #ddc38e, #75cab5);
+}
+
+.home .WandP .welcomeText .descBtn {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.home .WandP .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+.home .WandP .main .background {
+  position: absolute;
+  left: -16px;
+  right: -16px;
+  top: -16px;
+  bottom: -16px;
+  -webkit-filter: blur(6px);
+          filter: blur(6px);
+}
+
+.home .WandP .main .iphone-body {
+  margin-top: 13%;
+  position: relative;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 24rem;
+  height: 47rem;
+  border-radius: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 120px;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-position: cover;
+  margin-left: 70%;
+}
+
+.home .WandP .main .iphone-body .img {
+  margin-left: 10%;
+  border-radius: 6rem;
+}
+
+.home .WandP .main .iphone-body .contenu {
+  position: absolute;
+  margin-top: 50%;
+  width: 320px;
+  margin-left: 14%;
+}
+
+.home .WandP .main .iphone-body .contenu .contenuh1 {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  text-align: left;
+  font-size: 23px;
+  color: #202020;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+  padding-bottom: 5%;
+}
+
+.home .WandP .main .iphone-body .contenu .contenuh1 img {
+  width: 25px;
+  height: 25px;
+}
+
+.home .WandP .main .iphone-body .contenu .imgShop {
+  margin-top: 10%;
+  width: 200px;
+  height: 150px;
+  margin-left: 10%;
+}
+
+.home .WandP .main .iphone-body .contenu .footerIphone {
+  margin-top: 5%;
+}
+
+.home .WandP .main .iphone-body .contenu .footerIphone span {
+  position: relative;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  margin-left: 14.5%;
+  font-size: 17px;
+  color: #202020;
+}
+
+.home .WandP .main .round-shape-1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: .5rem solid  #484848;
+  border-radius: 6rem;
+}
+
+.home .WandP .main .round-shape-2 {
+  position: absolute;
+  left: 0.3rem;
+  right: 0.3rem;
+  top: 0.3rem;
+  bottom: 0.3rem;
+  border: 1.2rem solid  #000000;
+  border-radius: 5.6rem;
+}
+
+.home .WandP .main .round-shape-color1 {
+  position: absolute;
+  left: 1.1rem;
+  right: 1.1rem;
+  top: 1.1rem;
+  bottom: 1.1rem;
+  border: .1rem solid  #484848;
+  border-radius: 5rem;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  opacity: .5;
+}
+
+.home .WandP .main .round-shape-color2 {
+  position: absolute;
+  left: 0.7rem;
+  right: 0.7rem;
+  top: 0.7rem;
+  bottom: 0.7rem;
+  border: .2rem solid  #bcbcbc;
+  border-radius: 5.6rem;
+  opacity: .5;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.home .WandP .main .top-section {
+  width: 12rem;
+  height: 1.8rem;
+  background-color: #000000;
+  position: absolute;
+  top: 1.1rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.home .WandP .main .camera {
+  position: absolute;
+  bottom: 12px;
+  right: 1.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: .1rem solid  #1e1f22;
+  border-radius: 50%;
+  background-image: linear-gradient(right, #091528, #2363a6);
+  background-image: -webkit-gradient(linear, right top, left top, from(#091528), to(#2363a6));
+}
+
+.home .WandP .main .speaker {
+  position: absolute;
+  bottom: 0.8rem;
+  right: 4rem;
+  width: 5rem;
+  height: .3rem;
+  background-color: #333;
+  border-radius: .2rem;
+}
+
+.home .WandP .main .btn {
+  position: absolute;
+  width: .3rem;
+  height: 2rem;
+  background-color: #484848;
+  left: -.2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: .3rem;
+  border-top-left-radius: .3rem;
+  border-right: none;
+}
+
+.home .WandP .main .btn.volume-up {
+  top: 11rem;
+  height: 3rem;
+}
+
+.home .WandP .main .btn.volume-down {
+  top: 15rem;
+  height: 3rem;
+}
+
+.home .WandP .main .btn.silent {
+  top: 7.8rem;
+}
+
+.home .WandP .main .btn.power {
+  top: 10rem;
+  height: 4rem;
+  right: -.3rem;
+  left: auto;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.home .WandP .main .tt {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .WandP .main .tt .time {
+  color: #008060;
+  margin-top: 35px;
+  margin-left: -200%;
+  position: absolute;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Roboto',  sans-serif;
+}
+
+.home .WandP .main .tt .top-right {
+  margin-left: 215%;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .WandP .main .tt .top-right .bi {
+  color: white;
+  font-size: 10px;
+  padding: 3px;
+}
+
+.home .WandP .main .bat {
+  padding-top: 3px;
+}
+
+.home .WandP .main .top-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.home .WandP .main .top-center svg {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .WandP .main .top-center svg .time2 {
+  font-size: 53px;
+  color: white;
+  padding-top: 1%;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.home .WandP .main .top-center svg .date {
+  font-family: 'Roboto',  sans-serif;
+  font-size: 15px;
+  color: white;
+  padding-top: 1%;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .WandP .main hr {
+  position: absolute;
+  width: 120px;
+  height: 5px;
+  border: white;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 44rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .WandP .main .hr1 {
+  position: absolute;
+  width: 46px;
+  height: 2.5px;
+  border: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 52px;
+  margin-right: -14.9rem;
+}
+
+.loginPage, .registerPage {
+  padding-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.loginPage .snow, .registerPage .snow {
+  margin-top: -5%;
+  margin-right: -53.6%;
+  width: 600px;
+  height: 585px;
+  padding-left: 23%;
+}
+
+.loginPage .contenuLoginPage, .loginPage .contenuRegisterPage, .registerPage .contenuLoginPage, .registerPage .contenuRegisterPage {
+  margin-top: 1.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.loginPage .contenuLoginPage .loginTop, .loginPage .contenuLoginPage .registerTop, .loginPage .contenuRegisterPage .loginTop, .loginPage .contenuRegisterPage .registerTop, .registerPage .contenuLoginPage .loginTop, .registerPage .contenuLoginPage .registerTop, .registerPage .contenuRegisterPage .loginTop, .registerPage .contenuRegisterPage .registerTop {
+  padding-top: 7%;
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginPage .contenuLoginPage .loginTop h1, .loginPage .contenuLoginPage .registerTop h1, .loginPage .contenuRegisterPage .loginTop h1, .loginPage .contenuRegisterPage .registerTop h1, .registerPage .contenuLoginPage .loginTop h1, .registerPage .contenuLoginPage .registerTop h1, .registerPage .contenuRegisterPage .loginTop h1, .registerPage .contenuRegisterPage .registerTop h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.loginPage .contenuLoginPage .loginTop p, .loginPage .contenuLoginPage .registerTop p, .loginPage .contenuRegisterPage .loginTop p, .loginPage .contenuRegisterPage .registerTop p, .registerPage .contenuLoginPage .loginTop p, .registerPage .contenuLoginPage .registerTop p, .registerPage .contenuRegisterPage .loginTop p, .registerPage .contenuRegisterPage .registerTop p {
+  font-size: 16px;
+  margin-top: 2%;
+}
+
+.loginPage .contenuLoginPage .loginForm, .loginPage .contenuRegisterPage .loginForm, .registerPage .contenuLoginPage .loginForm, .registerPage .contenuRegisterPage .loginForm {
+  margin-top: 10%;
+}
+
+.loginPage .contenuLoginPage .loginForm .errorsLogin, .loginPage .contenuRegisterPage .loginForm .errorsLogin, .registerPage .contenuLoginPage .loginForm .errorsLogin, .registerPage .contenuRegisterPage .loginForm .errorsLogin {
+  color: red;
+  margin-top: -5%;
+  margin-left: -10%;
+  margin-top: -20px;
+  font-size: 13px;
+  margin-bottom: 9%;
+}
+
+.loginPage .contenuLoginPage .loginForm input, .loginPage .contenuRegisterPage .loginForm input, .registerPage .contenuLoginPage .loginForm input, .registerPage .contenuRegisterPage .loginForm input {
+  margin-bottom: 10%;
+  margin-left: -10%;
+  height: 47px;
+  width: 350px;
+  border: none;
+  border: 1px solid #cad1d9;
+  border-radius: 5px;
+  padding-left: 2%;
+  outline: none;
+}
+
+.loginPage .contenuLoginPage .loginForm .forgetPassword, .loginPage .contenuRegisterPage .loginForm .forgetPassword, .registerPage .contenuLoginPage .loginForm .forgetPassword, .registerPage .contenuRegisterPage .loginForm .forgetPassword {
+  margin-left: -10%;
+  margin-top: -20px;
+  font-size: 13px;
+  color: #4183d7;
+}
+
+.loginPage .contenuLoginPage .loginForm button, .loginPage .contenuRegisterPage .loginForm button, .registerPage .contenuLoginPage .loginForm button, .registerPage .contenuRegisterPage .loginForm button {
+  margin-top: 20px;
+  margin-left: -10%;
+  height: 47px;
+  width: 350px;
+  color: white;
+  background-color: #4183d7;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.loginPage .contenuLoginPage .footerformulairelogin, .loginPage .contenuRegisterPage .footerformulairelogin, .registerPage .contenuLoginPage .footerformulairelogin, .registerPage .contenuRegisterPage .footerformulairelogin {
+  margin-top: 10%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.loginPage .contenuLoginPage .footerformulairelogin .linkregister, .loginPage .contenuRegisterPage .footerformulairelogin .linkregister, .registerPage .contenuLoginPage .footerformulairelogin .linkregister, .registerPage .contenuRegisterPage .footerformulairelogin .linkregister {
+  color: #4183d7;
+  text-decoration: none;
+}
+
+.registerForm {
+  margin-top: 10%;
+}
+
+.registerForm .formRegister {
+  padding-left: 10%;
+}
+
+.registerForm .formRegister .errorsRegister {
+  color: red;
+  margin-top: -7%;
+  font-size: 13px;
+}
+
+.registerForm .formRegister .errorsRegisterEmail, .registerForm .formRegister .errorsRegisterPassword {
+  margin-top: -7%;
+  font-size: 13px;
+  color: red;
+}
+
+.registerForm .formRegister .inputPass {
+  margin-top: 3%;
+}
+
+.registerForm .formRegister input {
+  margin-bottom: 10%;
+  height: 47px;
+  width: 350px;
+  border: none;
+  border: 1px solid #cad1d9;
+  border-radius: 5px;
+  padding-left: 2%;
+  outline: none;
+}
+
+.registerForm .formRegister button {
+  margin-top: 10px;
+  height: 47px;
+  width: 350px;
+  color: white;
+  background-color: #4183d7;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.profilePage {
+  padding-bottom: 2%;
+  padding-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profilePage .leftSide {
+  width: 350px;
+  height: 700px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.profilePage .leftSide .imgProfile, .profilePage .leftSide img {
+  margin-left: 90px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  width: 170px;
+  height: 170px;
+  border-radius: 100px;
+}
+
+.profilePage .leftSide input {
+  margin-left: 10%;
+  margin-bottom: 2%;
+  outline: none;
+  border: none;
+}
+
+.profilePage .leftSide .updatePicbtn {
+  margin-top: 2%;
+  width: 170px;
+  margin-left: 28%;
+  background-color: #4183d7;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  font-weight: normal;
+}
+
+.profilePage .leftSide hr {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilePage .leftSide h1 {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+.profilePage .leftSide button, .profilePage .leftSide .btnUpdate {
+  margin-top: 1%;
+  width: 220px;
+  margin-left: 30%;
+  background-color: #4183d7;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+}
+
+.profilePage p {
+  margin-top: -3%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 15px;
+  color: #202020;
+}
+
+.profilePage .rightSide {
+  margin-left: 5%;
+  width: 650px;
+  height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.profilePage .rightSide .titleAndBtnAnnonce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profilePage .rightSide .titleAndBtnAnnonce h1 {
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 30px;
+  color: #3b3b3b;
+  letter-spacing: 5px;
+  word-spacing: 7px;
+  margin-bottom: -5%;
+}
+
+.profilePage .rightSide .titleAndBtnAnnonce .lienAnnonce {
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: -5%;
+  width: 250px;
+  padding-top: 5px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  background: linear-gradient(60deg, #ddc38e, #75cab5);
+}
+
+.profilePage .rightSide .titleAndBtnAnnonce .lienAnnonce img {
+  margin-left: 4%;
+  width: 20px;
+  height: 20px;
+}
+
+.profilePage .rightSideDash {
+  padding-top: 2%;
+  margin-left: 5%;
+  width: 800px;
+  height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.profilePage .rightSideDash p {
+  margin-top: auto;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.profilePage .rightSideDash .forFun {
+  width: 700px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background: linear-gradient(70deg, #bde0ff, #c4f8ef, #c8f4d5, #bdf7ff, #bde0ff) !important;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profilePage .rightSideDash .forFun h3 {
+  font-size: 35px;
+  font-weight: normal;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  line-height: 50px;
+}
+
+.profilePage .rightSideDash .forFun h4 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.profilePage .rightSideDash .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profilePage .rightSideDash .total .totalUser {
+  background-color: #ffbdd6;
+}
+
+.profilePage .rightSideDash .total .totalPost {
+  background-color: #c8f4d5;
+}
+
+.profilePage .rightSideDash .total .totalCom {
+  background-color: #f9eac3;
+}
+
+.profilePage .rightSideDash .total .totalPub, .profilePage .rightSideDash .total .totalUser, .profilePage .rightSideDash .total .totalPost, .profilePage .rightSideDash .total .totalCom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 5%;
+  margin-top: 13%;
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding-top: 5%;
+}
+
+.profilePage .rightSideDash .total .totalPub {
+  border: 1px solid #5fb4e6;
+  background-color: #5fb4e6;
+}
+
+.profilePage .rightSideDash .total .imgToAllUsers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+}
+
+.profilePage .rightSideDash .total .imgToAllUsers img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15%;
+}
+
+.profilePage .rightSideDash .total .imgToAllUsers p {
+  text-align: center;
+  color: #202020;
+  font-size: 20px;
+  margin-right: 5%;
+}
+
+.profilePage .rightSideDash .total .imgToAllPosts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+}
+
+.profilePage .rightSideDash .total .imgToAllPosts img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15%;
+}
+
+.profilePage .rightSideDash .total .imgToAllPosts p {
+  text-align: center;
+  color: #202020;
+  font-size: 20px;
+  margin-right: 5%;
+}
+
+.profilePage .rightSideDash .total .imgToAllCommandes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+}
+
+.profilePage .rightSideDash .total .imgToAllCommandes img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15%;
+}
+
+.profilePage .rightSideDash .total .imgToAllCommandes p {
+  text-align: center;
+  color: #202020;
+  font-size: 20px;
+  margin-right: 5%;
+}
+
+.profilePage .rightSideDash .total h1, .profilePage .rightSideDash .total p {
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.profilePage .rightSideDash .total p {
+  margin-top: -6%;
+}
+
+.profilePage .rightSideDash h2 {
+  margin-top: -5%;
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  margin-left: 5%;
+  font-size: 30px;
+  color: #3b3b3b;
+  letter-spacing: 5px;
+  word-spacing: 7px;
+}
+
+.recherchePage {
+  padding-top: 12%;
+}
+
+.recherchePage .recherchePageBody {
+  width: 600px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.recherchePage .recherchePageBody input {
+  font-size: 17px;
+  padding: 5%;
+  border: 1px solid #ddd9d9;
+  background-color: #ddd9d9;
+  border-radius: 5px;
+  outline: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 450px;
+  height: 36px;
+}
+
+.recherchePage .rechercheButton {
+  border: none;
+  padding: 10px;
+  background-color: #5fb4e6;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 200px;
+  display: block;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addPostPage {
+  padding-top: 13%;
+}
+
+.addPostPage .contenuaddPostPage {
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  width: 800px;
+  height: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.addPostPage .contenuaddPostPage .formPart1, .addPostPage .contenuaddPostPage .formPart2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+
+.addPostPage .contenuaddPostPage .formPart1 input, .addPostPage .contenuaddPostPage .formPart2 input {
+  outline: none;
+  border: 1px solid #ddd9d9;
+  border-radius: 3px;
+  padding: 15px;
+  margin-right: 2%;
+  font-size: 17px;
+}
+
+.addPostPage .contenuaddPostPage .formPart1 ::-webkit-input-placeholder, .addPostPage .contenuaddPostPage .formPart2 ::-webkit-input-placeholder {
+  color: #5f5f5f;
+}
+
+.addPostPage .contenuaddPostPage .formPart1 :-ms-input-placeholder, .addPostPage .contenuaddPostPage .formPart2 :-ms-input-placeholder {
+  color: #5f5f5f;
+}
+
+.addPostPage .contenuaddPostPage .formPart1 ::-ms-input-placeholder, .addPostPage .contenuaddPostPage .formPart2 ::-ms-input-placeholder {
+  color: #5f5f5f;
+}
+
+.addPostPage .contenuaddPostPage .formPart1 ::placeholder, .addPostPage .contenuaddPostPage .formPart2 ::placeholder {
+  color: #5f5f5f;
+}
+
+.addPostPage .contenuaddPostPage .formPart1 select, .addPostPage .contenuaddPostPage .formPart2 select {
+  color: #5f5f5f;
+  outline: none;
+  border: 1px solid #ddd9d9;
+  border-radius: 3px;
+  padding: 15px;
+  margin-right: 2%;
+  font-size: 17px;
+}
+
+.addPostPage .contenuaddPostPage button {
+  border: none;
+  padding: 10px;
+  background-color: #5fb4e6;
+  color: white;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 200px;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productsPage {
+  margin-bottom: 10%;
+}
+
+.productsPage .titrePost {
+  letter-spacing: 5px;
+  word-spacing: 7px;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  background-image: linear-gradient(60deg, #0c0c0c, #eef8ee);
+  background-clip: text;
+  color: transparent;
+}
+
+.productsPage .allPosts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.productsPage .allPosts .userPost {
+  position: relative;
+  padding-top: 2%;
+  padding-left: 2%;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  color: #3b3b3b;
+}
+
+.productsPage .allPosts .userPost h4 {
+  font-size: 15px;
+}
+
+.productsPage .allPosts .userPost .blockInfo {
+  height: 170px;
+}
+
+.productsPage .allPosts .userPost .btnuserPost {
+  position: absolute;
+}
+
+.productsPage .allPosts .userPost .btnuserPost img {
+  margin-left: 100%;
+  margin-bottom: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.productsPage .allPosts .postallpostC {
+  width: 300px;
+}
+
+.productsPage .allPosts .postallpost, .productsPage .allPosts .postallpostC {
+  padding-top: 2%;
+  padding-left: 2%;
+  margin-right: 5%;
+  margin-top: 2%;
+  width: 250px;
+  height: 520px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  color: #3b3b3b;
+}
+
+.productsPage .allPosts .postallpost .btnfav, .productsPage .allPosts .postallpostC .btnfav {
+  background-color: transparent;
+  border: none;
+}
+
+.productsPage .allPosts .postallpost .btnfav img, .productsPage .allPosts .postallpostC .btnfav img {
+  width: 20px;
+  height: 20px;
+}
+
+.productsPage .allPosts .postallpost .block2, .productsPage .allPosts .postallpostC .block2 {
+  height: 300px;
+}
+
+.productsPage .allPosts .postallpost .block2 .editSupp, .productsPage .allPosts .postallpostC .block2 .editSupp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 150px;
+}
+
+.productsPage .allPosts .postallpost .block2 h6, .productsPage .allPosts .postallpostC .block2 h6 {
+  margin-left: -8%;
+}
+
+.productsPage .allPosts .postallpost .block2 img, .productsPage .allPosts .postallpostC .block2 img {
+  margin-top: -10%;
+  margin-left: -8%;
+  margin-bottom: 17%;
+}
+
+.productsPage .allPosts .post {
+  padding-top: 2%;
+  padding-left: 2%;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 250px;
+  height: 520px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  color: #3b3b3b;
+}
+
+.productsPage .allPosts .entetePost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.productsPage .allPosts .entetePost img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.productsPage .allPosts .entetePost h4 {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 15px;
+}
+
+.productsPage .allPosts .hrP {
+  width: 230px;
+}
+
+.productsPage .allPosts .imgPost {
+  margin-top: -2%;
+  width: 225px;
+  height: 150px;
+}
+
+.productsPage .allPosts input {
+  font-size: 12px;
+}
+
+.productsPage .allPosts button {
+  margin-top: 2%;
+  width: 150px;
+  margin-left: 16%;
+  background-color: #85878a;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 2px;
+  color: white;
+  font-weight: normal;
+}
+
+.productsPage .allPosts .titlePost, .productsPage .allPosts .descPost {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.productsPage .allPosts .descPost {
+  margin-top: -12%;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.productsPage .allPosts .prixPost {
+  margin-top: -12%;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.productsPage .allPosts .villePost {
+  margin-top: -12%;
+  font-size: 15px;
+  font-weight: normal;
+  color: #7a7a7a;
+}
+
+.productsPage .allPosts .deuxImg {
+  margin-top: -12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.productsPage .allPosts .deuxImg .Edit, .productsPage .allPosts .deuxImg .Supp {
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+
+.productsPage .allPosts .deuxImg .Edit {
+  margin-right: -200%;
+}
+
+.blockUser {
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blockUser .userInfo {
+  padding-top: 1%;
+  padding-left: 1%;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  color: #3b3b3b;
+}
+
+.blockUser .userInfo .entete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blockUser .userInfo .entete img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.allpostsPageALLPosts {
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.allpostsPageALLPosts .post {
+  padding-top: 1%;
+  padding-left: 1%;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  color: #3b3b3b;
+}
+
+.Mail .MailTo {
+  font-size: 20px;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+.Mail .MailTo img {
+  margin-top: -.5%;
+  width: 30px;
+  height: 30px;
+}
+
+.Mail :hover {
+  text-decoration: underline;
+}
+
+.Estimation {
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 700px;
+  height: 250px;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.Estimation img {
+  padding-top: 35px;
+}
+
+.Estimation .estDroite {
+  margin-left: 5%;
+  margin-top: 5%;
+  color: #333;
+}
+
+.Estimation .estDroite h1 {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Estimation .estDroite h2 {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10%;
+}
+
+.Estimation .estDroite h2 span {
+  font-weight: bold;
+}
+
+.Estimation .estDroite .annonceLink {
+  text-decoration: none;
+  border: 1px solid rgba(255, 68, 0, 0.781);
+  color: white;
+  background-color: rgba(255, 68, 0, 0.781);
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tShop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1100px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.tShop .Shopping {
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tShop .Shopping .article {
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 2%;
+  margin-left: 5%;
+}
+
+.tShop .Shopping .article .hr {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 720px;
+}
+
+.tShop .Shopping .article .bodyArticle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 700px;
+}
+
+.tShop .Shopping .article .bodyArticle img {
+  width: 150px;
+  height: 100px;
+}
+
+.tShop .Shopping .article .bodyArticle h1 {
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 5%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  width: 150px;
+}
+
+.tShop .Shopping .article .bodyArticle button {
+  margin-left: 15%;
+  margin-top: 3%;
+  background-color: transparent;
+  border: none;
+  height: 50px;
+}
+
+.tShop .Shopping::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 10px;
+  width: 5px;
+}
+
+.tShop .Shopping::-webkit-scrollbar-thumb {
+  background: linear-gradient(50deg, #ced47691, #e664809c);
+  border-radius: 10px;
+}
+
+.tShop .Shopping::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.tShop .partTotal {
+  color: #2b2a2a;
+  background-color: #aaa9aa93;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.tShop .partTotal h1 {
+  margin-top: 10%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.tShop .partTotal img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 200px;
+  height: 200px;
+}
+
+.tShop .partTotal hr {
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tShop .partTotal .prix {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.tShop .partTotal .link {
+  text-decoration: none;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 2%;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background: linear-gradient(50deg, #e66480, #ced476);
+  color: #2b2a2a;
+  padding-top: 7px;
+  border-radius: 5px;
+}
+
+.paymentPage {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  height: 721px;
+  background: linear-gradient(10deg, #4344445d, #ffffff00);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.paymentPage img {
+  margin-left: 2%;
+}
+
+.paymentPage .btnBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.paymentPage .btnBtn .btnPay .StripeCheckout {
+  width: 400px;
+  padding-top: 10px !important;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  color: white !important;
+  height: 50px;
+  background-image: none !important;
+  background: linear-gradient(50deg, #e66480, #ced476) !important;
+}
+
+.paymentPage .btnBtn .btnPay .StripeCheckout span {
+  visibility: hidden !important;
+}
+
+.paymentPage .btnBtn .btnPay ::before {
+  content: "Payer en ligne";
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-align: center !important;
+}
+
+.paymentPage .btnBtn .livraison {
+  margin-top: 5%;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 400px;
+  padding-top: 10px !important;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  color: white !important;
+  height: 50px;
+  background-image: none !important;
+  background: linear-gradient(50deg, #e66480, #ced476) !important;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-align: center !important;
+}
+
+.done {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.done img {
+  width: 600px;
+  height: 570px;
+  margin-left: 5%;
+}
+
+.done .bodyDone {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.done .bodyDone h1 {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  letter-spacing: 3px;
+  word-spacing: 7px;
+  text-align: center;
+  line-height: 65px;
+  width: 700px;
+  margin-bottom: 10%;
+}
+
+.done .bodyDone .homeLink {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 15%;
+  background-color: rgba(255, 166, 0, 0.685);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.mesCommandes img {
+  margin-left: 72%;
+  margin-top: -3.5%;
+  width: 420px;
+  height: 420px;
+}
+
+.mesCommandes .titrePost {
+  margin-bottom: -2%;
+  letter-spacing: 5px;
+  word-spacing: 7px;
+  margin-left: 2%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#008060), to(#eef8ee));
+  background-image: linear-gradient(#008060, #eef8ee);
+  background-clip: text;
+  color: transparent;
+}
+
+.mesCommandes .diva {
+  margin-top: 5%;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.mesCommandes .diva table {
+  border-collapse: separate;
+  border-spacing: 15px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mesCommandes .diva table tr th {
+  color: #ffae00;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.mesCommandes .diva table tr td {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.productsPage .SD {
+  font-size: 17px;
+  padding: 2%;
+  border: 1px solid rgba(221, 217, 217, 0.479);
+  background-color: rgba(221, 217, 217, 0.479);
+  border-radius: 5px;
+  outline: none;
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: 32%;
+  width: 500px;
+  height: 20px;
+}
+
+.productsPage .allUsersS {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.productsPage .allUsers, .productsPage .allUsersS {
+  margin-top: -.01%;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.productsPage .allUsers table, .productsPage .allUsersS table {
+  border-collapse: separate;
+  border-spacing: 15px;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.productsPage .allUsers table tr, .productsPage .allUsersS table tr {
+  border-bottom: 1px solid black;
+}
+
+.productsPage .allUsers table tr th, .productsPage .allUsersS table tr th {
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.productsPage .allUsers table tr td, .productsPage .allUsersS table tr td {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.productsPage .allUsers table .userPost td, .productsPage .allUsersS table .userPost td {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.productsPage .allUsers table .userPost td button img, .productsPage .allUsersS table .userPost td button img {
+  width: 20px;
+  height: 20px;
+}
+
+.productsPage .allUsers table .userPost .entetePost, .productsPage .allUsersS table .userPost .entetePost {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.productsPage .allUsers table .userPost .entetePost .profilePic, .productsPage .allUsersS table .userPost .entetePost .profilePic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.productsPage .allUsers table .userPost .entetePost h4, .productsPage .allUsersS table .userPost .entetePost h4 {
+  margin-top: 7%;
+  margin-left: 15%;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.commandesPage .titrePost {
+  letter-spacing: 5px;
+  word-spacing: 7px;
+  margin-left: 2%;
+  margin-top: 5%;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  background-image: linear-gradient(60deg, #0c0c0c, #eef8ee);
+  background-clip: text;
+  color: transparent;
+}
+
+.commandesPage .SD {
+  font-size: 17px;
+  padding: 2%;
+  border: 1px solid rgba(221, 217, 217, 0.479);
+  background-color: rgba(221, 217, 217, 0.479);
+  border-radius: 5px;
+  outline: none;
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: 32%;
+  width: 500px;
+  height: 20px;
+}
+
+.commandesPage .allUsersS {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.commandesPage .allUsers, .commandesPage .allUsersS {
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.commandesPage .allUsers table, .commandesPage .allUsersS table {
+  border-collapse: separate;
+  border-spacing: 20px;
+  width: 1350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.commandesPage .allUsers table tr, .commandesPage .allUsersS table tr {
+  border-bottom: 1px solid black;
+}
+
+.commandesPage .allUsers table tr th, .commandesPage .allUsersS table tr th {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  color: #4d4c4c;
+  font-weight: bold;
+}
+
+.commandesPage .allUsers table tr td, .commandesPage .allUsersS table tr td {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.commandesPage .allUsers table .userPost td, .commandesPage .allUsersS table .userPost td {
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.commandesPage .allUsers table .userPost td .btn1, .commandesPage .allUsersS table .userPost td .btn1 {
+  border: none;
+  background-color: #e66480b0;
+  outline: none !important;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+
+.commandesPage .allUsers table .userPost td .btn2, .commandesPage .allUsersS table .userPost td .btn2 {
+  width: 100px;
+  padding: 5px;
+  border: none;
+  background-color: #ced4769f;
+  outline: none !important;
+  border-radius: 5px;
+}
+
+.commandesPage .allUsers table .userPost .entetePost, .commandesPage .allUsersS table .userPost .entetePost {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.commandesPage .allUsers table .userPost .entetePost .profilePic, .commandesPage .allUsersS table .userPost .entetePost .profilePic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.commandesPage .allUsers table .userPost .entetePost h4, .commandesPage .allUsersS table .userPost .entetePost h4 {
+  margin-top: 7%;
+  margin-left: 15%;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

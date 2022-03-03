@@ -1,0 +1,2034 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Cormorant:ital,wght@0,300;1,500&family=Dancing+Script&family=Dosis:wght@200&family=El+Messiri&family=Playfair+Display&family=Roboto:wght@100&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Cormorant:ital,wght@0,300;1,500&family=Dancing+Script&family=El+Messiri&family=Playfair+Display&family=Roboto:wght@100&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Cormorant:ital,wght@0,300;1,500&family=Dancing+Script&family=Dosis:wght@200&family=El+Messiri&family=IBM+Plex+Sans+Thai+Looped:wght@100;400;500&family=Playfair+Display&family=Roboto:wght@100&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+//navBar style 
+   .navBar{
+      box-shadow: 0 1px 6px 0 rgba(128, 128, 128, 0.185);
+      display: flex;
+      flex-direction: row;
+      position: fixed;
+      height: 70px;
+      background: white;
+      width: 100%;
+      z-index: 2;
+      .logo{
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      font-family: 'Zen Kurenaido', sans-serif;
+      color: #008060;
+      font-size: 40px;
+      font-weight: normal;
+      letter-spacing: 10px;
+      margin-top: 5px;
+      margin-left: 5%;
+      position: relative;  
+      margin-right: 25%;    
+      background: transparent;
+      span{
+         background: transparent;
+      }
+   }
+   .searchNavBar{
+      display: flex;
+      flex-direction: row;
+      margin-top: 1.2%;
+      background: transparent;
+      text-decoration: none;
+      img{
+         width:32px;
+         height:32px;
+         background: transparent;
+      }
+      h1{
+         background: transparent;
+         margin-top: 5%;
+         margin-left: 10%;
+         font-size: 22px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         color: #008060;
+      }
+   }
+   .Favoris{
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      margin-top: .7%;
+      margin-left: 25%;
+      background: transparent;
+      img{
+         width:27px;
+         height:27px;
+         margin-left: auto;
+         margin-right: auto;
+         background: transparent;
+      }
+      h1{
+         background: transparent;
+         margin-top: -.001%;
+         font-size: 15px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         color: #008060;
+      }
+   }
+   .logIn{
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      margin-top: .6%;
+      margin-left: 2%;
+      .Link{
+         background: transparent;
+         text-decoration: none;
+         text-align: center;
+         img{
+            background: transparent;
+            width:25px;
+            height:25px;           
+         }
+         h1{
+            background: transparent;
+            margin-top: -.001%;
+            font-size: 15px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: normal;
+            color: #008060;
+         }
+      }
+   }
+   .rotateA{
+      position: absolute;
+      transform: rotate(180deg);
+      margin-left: 54%;
+      margin-top: 5.9px;
+      background: transparent;
+   }
+   .afterRotate{
+      margin-left: 18%;
+   }
+   .ProfDash{
+      display: flex;
+      flex-direction: column;
+      margin-top: .48%;
+      margin-left: 2%;
+      background: transparent;
+      text-decoration: none;
+      img{
+         width:30px;
+         height:30px;
+         border-radius: 50px;
+         padding-top: -5px;
+         margin-left: auto;
+         margin-right: auto;
+         background: transparent;
+      }
+      h1{
+         background: transparent;
+         margin-top: -.001%;
+         font-size: 15px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         color: #008060;
+      }
+   }
+   .logout{
+      display: flex;
+      flex-direction: column;
+      margin-top: .7%;
+      margin-left: 1.5%;
+      background: transparent;
+      text-decoration: none;
+      border: none;
+      outline: none;
+      background: transparent;
+
+      img{
+         width:25px;
+         height:25px;
+         margin-left: auto;
+         margin-right: auto;
+         background: transparent;
+      }
+      h1{
+         background: transparent;
+         margin-top: -.001%;
+         font-size: 15px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         color: #008060;
+      }
+   }
+   .ShoppingCard{
+      margin-top: .9%;
+      margin-left: 1.5%;
+      background: transparent;
+      text-decoration: none;
+      border: none;
+      outline: none;
+      background: transparent;
+      img{
+         width:40px;
+         height:40px;
+         margin-left: auto;
+         margin-right: auto;
+         background: transparent;
+      }
+   }
+}
+
+
+//home style  
+   .home{
+      position: relative;
+      width: 950px;
+      margin-left: auto;
+      margin-right: auto;
+      .bodyHome{
+         margin-left: auto;
+         margin-right: auto; 
+         position:absolute;
+         margin-top: 10%;
+         margin-left: auto;
+         margin-right: auto;
+         width: 900px;
+         height: 400px;
+         // background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22661.1%22%20viewBox%3D%220%200%201440%20661.1%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3Ecircle%2C%20ellipse%2C%20line%2C%20path%2C%20polygon%2C%20polyline%2C%20rect%2C%20text%20%7B%20fill%3A%20rgb%280%2C%20128%2C%2096%29%20%21important%3B%20%7D%3C%2Fstyle%3E%3Cpath%20fill%3D%22rgb%280%2C%20128%2C%2096%29%22%20d%3D%22M1440%20488c-19.3%204.3-39.2%208.6-60%2013-174.2%2036.5-228.8%20288-467%2076.2-153.6-136.6-424-22.8-660.4-5.8-130.2%209.3-252.6-75-252.6-75V0h1440%22%2F%3E%3C%2Fsvg%3E");
+         // background-size: cover;
+         // background: linear-gradient(#008060, rgba(4, 153, 116, 0));
+      .imgShop{
+         background: transparent;
+         margin-top: 3%;
+         margin-left: 35%;
+      }
+      .middleBodyHome{
+         background: transparent;
+         margin-top: 4%;
+         margin-left: auto;
+         margin-right: auto;
+         width: 670px;
+         h1{
+            font-family: 'Dosis', sans-serif;
+            font-weight: normal;
+            background: transparent;
+            color: white;
+            font-size: 25px;
+            letter-spacing: 5px;
+            word-spacing: 10px;
+            img{
+               background: transparent;
+               width: 20px;
+               height: 20px;
+            }
+         }
+         :nth-child(3){
+            margin-bottom: 5%;
+         }
+         .link{
+            font-family: 'Dosis', sans-serif;
+            font-weight: bold;
+            background: transparent;
+            color: #008060;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 5%;
+            margin-left: 25%;
+            border: 1px solid white;
+            background-color: white;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: .5%;
+            padding-bottom: .7%;
+            border-radius: 50px;
+         }
+         :hover{
+            background-color: transparent;
+            color: white;
+            font-weight: normal;
+         }
+      }
+      .icons{
+         background: transparent;
+         margin-left:2%;
+         margin-top: 2%;
+         display: flex;
+         flex-direction: row;
+         .icon23{
+            margin-left: 90%;
+            display: flex;
+            flex-direction: row;
+         }
+         .icon23 img:nth-child(1){
+            padding-right: 30%;
+         }
+      }
+      .topBodyHome{        
+         width:900px;
+         height: 15px;
+         background: white;
+         border: 1px solid transparent;
+         padding: 0;
+         position: relative;
+         span{
+            background: transparent;
+            color: #444546;
+            position: absolute;
+            margin-top: -43px;
+            margin-left: 10px;
+            font-size: 50px;
+         }
+      }
+      .homeSection1{
+         background: transparent;
+         margin-top: 10%;
+         h1{
+            color: rgb(37, 37, 37);
+            background: transparent;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: normal;
+            font-size: 40px;
+         }
+         .wrapper{
+            max-height: 170px;
+            display: flex;
+            background: transparent;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            width: 950px;
+            .item{
+               text-decoration: none;
+               background: transparent;
+               overflow-y: hidden;
+               min-width: 250px;
+               height: 150px;
+               line-height: 110px;
+               text-align: center;
+               margin-right: 2%;
+               img{
+                  width:250px;
+                  height: 150px;
+                  border-radius: 10px;
+               }
+               .text{
+                  position: relative;
+                  width: 100%;
+                  margin-top: -15%;
+                  background: transparent;
+                  h1{
+                     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+                     font-weight: normal;
+                     text-align: center;
+                     color: white;
+                     background: transparent;
+                     font-size: 25px;
+                     letter-spacing: 3px;
+                     text-shadow: 2px 0 0 #008060, -2px 0 0 #008060, 0 2px 0 #008060, 0 -2px 0 #008060, 1px 1px #008060, -1px -1px 0 #008060, 1px -1px 0 #008060, -1px 1px 0 #008060;
+                  }
+               }
+            }
+            &::-webkit-scrollbar {
+               border-radius: 10px;
+               height: 10px;
+               width: 5px;
+             }
+           
+             &::-webkit-scrollbar-thumb {
+               background: linear-gradient(60deg, rgb(219, 203, 172), #91bdb2);
+               border-radius: 10px;
+             }
+           
+             &::-webkit-scrollbar-track {
+               border-radius: 10px;
+             }
+           
+         
+         } 
+      }
+      .homeSection1-2{
+         margin-top:15%;
+         width:  955px;
+         display: flex;
+         flex-direction: row;
+         background-color: rgba(228, 165, 28, 0.199);
+         border-radius: 5px;
+         padding-left: 5%;
+         h1{
+            font-size:20px;
+            font-weight:bold;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            margin-top:8%;
+            line-height: 30px;
+         }
+         h2{
+            padding-bottom: 2%;
+            line-height: 30px;
+            font-size:18px;
+            font-weight:normal;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         }
+         .annonceLink{
+            text-decoration: none;
+            font-size:18px;
+            font-weight:normal;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color : white;
+            background-color: rgba(255, 68, 0, 0.788);
+            padding: 5px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 5px;
+         }
+         img{
+            width: 250px;
+            height:250px;
+            margin-left: 13%;
+         }
+      }      
+      .homeSection2{
+         margin-top: 7%;
+         background: transparent;
+         width: 955px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 7%;
+         p{
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: normal;
+            text-align: center;   
+            background: transparent;
+            font-size: 15px; 
+            .link{
+               text-decoration: none;
+               color: #4183D7;
+               background: transparent;
+            }        
+            :hover{
+               text-decoration: underline;
+            }
+         }
+      }
+      .footer{
+         background-color: #afb1b0;
+         width: 1684px;
+         margin-left: -50%;
+         padding-left: 30%;
+         padding-right:10%;
+         padding-top: 5%;
+         .haut{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .part1, .part2, .part3, .part4{
+               width: 280px;
+               margin-bottom: 2%;
+               h1{
+                  font-size: 20px;
+                  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+                  margin-bottom: -3%;
+               }
+               hr{
+                  width: 280px;
+               }
+               h2{
+                  font-weight: normal;
+                  font-size: 15px;
+                  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+               }
+            }
+         }
+         .bas{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+         }
+      }
+      }
+   }
+
+
+.loginPage{
+   height: 700px;
+   padding-top: 5%;
+   .loginForm{
+      margin-top: 10%;
+      background: transparent;
+      width: 300px;
+      margin-right: auto;
+      margin-left: auto;
+      .formulaire{
+         background: transparent;
+      }
+   }
+}
+
+
+// ************************** iphone **************************
+
+.home{
+  padding-top: 17%;
+  .WandP{
+     display: flex;
+     flex-direction:row;
+  .welcomeText{
+   padding-top: 5%;
+   margin-top: -13%;
+   margin-left: -10%;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   color: #202020;
+   h1{
+      font-size: 4.5rem;
+      line-height: 120px;
+      margin-bottom: 3%}
+   .annonceLink{
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-size: 25px;
+      text-align: center;
+      font-weight: normal;
+      text-decoration: none;
+      color : white;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 10px;
+      background:linear-gradient(60deg, rgb(221, 195, 142), #75cab5);
+   }
+   .descBtn{
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-size: 13px;
+      font-weight: normal;
+      margin-top: 10px;
+   }
+  }
+  .main{
+   display: flex;
+   height: 50vh;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   .background{
+      position: absolute;
+      left: -16px;
+      right: -16px;
+      top: -16px;
+      bottom: -16px;
+      filter: blur(6px);
+  }
+  .iphone-body{
+   margin-top: 13%;
+    position: relative;
+    flex-shrink: 0;
+    width: 24rem;
+    height: 47rem;
+    border-radius: 6rem;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    user-select: none;
+    box-shadow: none;
+    margin-bottom: 120px;
+    transform: scale(0.7);
+    transition: all .5s;
+    background-position: cover;
+    margin-left: 70%;
+    .img{
+       margin-left: 10%;
+       border-radius: 6rem;
+    }
+    .contenu{
+       position: absolute;
+       margin-top: 50%;
+       width: 320px;
+       margin-left: 14%;
+       .contenuh1{
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         text-align: left;
+         font-size: 23px;
+         color : #202020;
+         word-spacing: 5px;
+         letter-spacing:1.5px;
+         padding-bottom: 5%;
+          img{
+             width: 25px;
+             height: 25px;
+          }
+       }
+       .imgShop{
+          margin-top: 10%;
+          width:200px;
+          height:150px;
+          margin-left: 10%;
+       }
+       .footerIphone{
+          margin-top: 5%;
+         span{
+            position: relative;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: normal;
+            margin-left: 14.5%;
+            font-size: 17px;
+            color : #202020;
+      }
+       }
+    }
+}
+.round-shape-1{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   border: .5rem solid 
+   #484848;
+   border-radius: 6rem;
+}
+.round-shape-2{
+   position: absolute;
+   left: 0.3rem;
+   right: 0.3rem;
+   top: 0.3rem;
+   bottom: 0.3rem;
+   border: 1.2rem solid 
+   #000000;
+   border-radius: 5.6rem;
+}
+.round-shape-color1{
+   position: absolute;
+   left: 1.1rem;
+   right: 1.1rem;
+   top: 1.1rem;
+   bottom: 1.1rem;
+   border: .1rem solid 
+   #484848;
+   border-radius: 5rem;
+   filter: blur(1px);
+   opacity: .5;
+}
+.round-shape-color2{
+   position: absolute;
+   left: 0.7rem;
+   right: 0.7rem;
+   top: 0.7rem;
+   bottom: 0.7rem;
+   border: .2rem solid 
+   #bcbcbc;
+   border-radius: 5.6rem;
+   opacity: .5;
+   filter: blur(1px);
+}
+.top-section{
+   width: 12rem;
+   height: 1.8rem;
+   background-color: 
+   #000000;
+   position: absolute;
+   top: 1.1rem;
+   border-bottom-left-radius:
+    1.5rem;
+   border-bottom-right-radius:
+    1.5rem;
+}
+.camera{
+   position: absolute;
+   bottom: 12px;
+   right: 1.5rem;
+   width: 0.5rem;
+   height: 0.5rem;
+   
+   border: .1rem solid 
+   #1e1f22;
+   border-radius: 50%;
+   background-image:
+    linear-gradient(right,
+     #091528, #2363a6);
+   background-image: 
+   -webkit-gradient(linear,
+    right top, left top, 
+    from(#091528), 
+    to(#2363a6));
+}
+.speaker{
+   position: absolute;
+   bottom: 0.8rem;
+   right: 4rem;
+   width: 5rem;
+   height: .3rem;
+   background-color: #333;
+   border-radius: .2rem;
+}
+.btn{
+   position: absolute;
+   width: .3rem;
+   height: 2rem;
+   background-color: 
+   #484848;
+   left: -.2rem;
+   border: 0.1rem solid
+    rgba(0,0,0, 0.1);
+   border-bottom-left-radius: 
+   .3rem;
+   border-top-left-radius:
+    .3rem;
+   border-right: none;
+}
+.btn.volume-up{
+   top: 11rem;
+   height: 3rem;
+}
+.btn.volume-down{
+   top : 15rem;
+   height: 3rem;
+}
+.btn.silent{
+   top: 7.8rem;
+}
+.btn.power{
+   top: 10rem;
+   height: 4rem;
+   right: -.3rem;
+   left: auto;
+   transform: rotate(180deg);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.tt{
+   position: absolute;
+   display: flex;
+   flex-direction:row;
+   .time{
+      color: #008060;
+      margin-top: 35px;
+      margin-left: -200%;
+      position: absolute;
+      font-size: 14px;
+      font-weight: normal;
+      font-family: 'Roboto', 
+      sans-serif;
+  }
+  .top-right{
+     margin-left: 215%;
+     margin-top: 35px;
+     display: flex;
+     flex-direction: row;
+     .bi{
+        color: white;  
+        font-size: 10px;  
+        padding: 3px;
+     }
+  }
+}
+
+.bat{
+   padding-top: 3px;
+}
+.top-center{
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
+   position: absolute;
+}
+.top-center svg{
+   width: 3.5rem;
+   height: 3.5rem;
+   margin-left: auto;
+   margin-right: auto;
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.time2{
+    font-size: 53px;
+    color: white;
+    padding-top: 1%;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto',
+     sans-serif;
+}
+.date{
+    font-family: 'Roboto', 
+    sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-top: 1%;
+    font-weight:  300;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}
+hr{
+   position: absolute;
+   width: 120px;
+   height: 5px;
+   border: white;
+   border-radius: 20px;
+   background-color: 
+   white;
+   margin-top: 44rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+.hr1{
+   position: absolute;
+   width: 46px;
+   height: 2.5px;
+   border: rgba(255, 255,
+    255, 0.4);
+   border-radius: 20px;
+   background-color:
+    rgba(255, 255, 255, 0.4);
+   margin-top: 52px;
+   margin-right: -14.9rem;
+}
+  }
+}
+
+}
+
+
+//login style
+.loginPage, .registerPage{
+   padding-top: 8%;
+   display: flex;
+   flex-direction: row;
+   .snow{
+      margin-top:-5%;
+      margin-right: -53.6%;
+      width: 600px;
+      height:585px;
+      padding-left: 23%;
+   }
+   .contenuLoginPage, .contenuRegisterPage{
+      margin-top: 1.5%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
+      height: 500px;
+      border-radius: 10px;
+      box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+      .loginTop, .registerTop{
+         padding-top: 7%;
+         text-align: center;
+         width: 350px;
+         margin-left: auto;
+         margin-right: auto;
+         h1{
+            font-weight: normal;
+            font-size: 30px;
+         }
+         p{
+            font-size: 16px;
+            margin-top: 2%;
+         }
+      }
+      .loginForm{
+         margin-top: 10%;
+         .errorsLogin{
+            color: red;
+            margin-top: -5%;
+            margin-left: -10%;
+            margin-top: -20px;
+            font-size:13px;
+            margin-bottom: 9%;
+         }
+         input{
+            margin-bottom: 10%;
+            margin-left: -10%;
+            height: 47px;
+            width: 350px;
+            border: none;
+            border: 1px solid rgb(202, 209, 217);
+            border-radius: 5px;
+            padding-left: 2%;
+            outline: none;
+         }
+         .forgetPassword{
+            margin-left: -10%;
+            margin-top: -20px;
+            font-size:13px;
+            color: rgb(65, 131, 215);
+         }
+         button{
+            margin-top: 20px;
+            margin-left: -10%;
+            height: 47px;
+            width: 350px;
+            color : white;
+            background-color: rgb(65, 131, 215);
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+         }
+      }
+      .footerformulairelogin{
+         margin-top: 10%;
+         font-size: 14px;
+         text-align: center;
+         .linkregister{
+            color:rgb(65, 131, 215);
+            text-decoration: none;
+         } 
+      }
+   }
+  
+}
+
+// register style
+.registerForm{
+      margin-top: 10%;
+      .formRegister{
+         padding-left: 10%;
+         .errorsRegister{
+            color: red;
+            margin-top: -7%;
+            font-size:13px;
+         }
+         .errorsRegisterEmail, .errorsRegisterPassword{
+            margin-top: -7%;
+            font-size:13px;
+            color: red;
+         }
+         .inputPass{
+            margin-top: 3%;
+         }
+         input{
+            margin-bottom: 10%;
+            height: 47px;
+            width: 350px;
+            border: none;
+            border: 1px solid rgb(202, 209, 217);
+            border-radius: 5px;
+            padding-left: 2%;
+            outline: none;
+         }
+         button{
+            margin-top: 10px;
+            height: 47px;
+            width: 350px;
+            color : white;
+            background-color: rgb(65, 131, 215);
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+         }
+      }      
+}
+
+// profile style
+.profilePage{
+   padding-bottom: 2%;
+   padding-top: 10%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   .leftSide{  
+      width: 350px;
+      height: 700px;
+      border-radius: 10px;
+      box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+      .imgProfile, img{
+         margin-left: 90px;
+         margin-top: 35px;
+         margin-bottom: 20px;
+         width: 170px;
+         height: 170px;
+         border-radius: 100px;
+      }
+      input{
+         margin-left: 10%;
+         margin-bottom: 2%;
+         outline: none;
+         border: none;
+      }
+      .updatePicbtn{
+         margin-top: 2%;
+         width:170px;
+         margin-left: 28%;
+         background-color: rgb(65, 131, 215);
+         border: none;
+         border-radius: 5px;
+         font-weight: bold;
+         font-size: 15px;
+         padding: 5px;
+         color : white;
+         font-weight: normal;
+      }
+      hr{
+         width: 340px;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      h1{
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         margin-left: 5%;
+         font-size: 20px;
+         color : #3b3b3b;}
+      button, .btnUpdate{
+         margin-top: 1%;
+         width:220px;
+         margin-left:30%;
+         background-color: rgb(65, 131, 215);
+         border: none;
+         border-radius: 5px;
+         font-weight: bold;
+         font-size: 15px;
+         padding: 10px;
+         color : white;
+         font-weight: normal;
+      }
+   }
+   p{
+      margin-top: -3%;
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-weight: normal;
+      margin-left: 5%;
+      font-size: 15px;
+      color : #202020;
+   }
+   .rightSide{
+      margin-left: 5%;
+      width: 650px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+      .titleAndBtnAnnonce{
+         display: flex;
+         flex-direction: column;
+         h1{
+            margin-top: 10%;
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: normal;
+            margin-left: 5%;
+            font-size: 30px;
+            color : #3b3b3b;
+            letter-spacing:5px;
+            word-spacing:7px;
+            margin-bottom: -5%;
+         }
+         .lienAnnonce{
+            margin-left:10%;
+            margin-top:15%;
+            margin-bottom: -5%;
+            width: 250px;
+            padding-top: 5px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-size: 17px;
+            text-align: center;
+            font-weight: normal;
+            text-decoration: none;
+            color : white;
+            padding-bottom: 2px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: 5px;
+            background:linear-gradient(60deg, rgb(221, 195, 142), #75cab5);
+            img{
+               margin-left:4%;
+               width:20px;
+               height: 20px;
+            }
+         }
+      }
+      
+   }
+   .rightSideDash{
+      padding-top:2%;
+      margin-left: 5%;
+      width: 800px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+      p{
+         margin-top:auto;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-size:15px;
+         font-weight:bold;
+      }
+      .forFun{
+         width:700px;
+         border: 1px solid transparent;
+         border-radius: 15px;
+         background: linear-gradient(70deg, #bde0ff, #c4f8ef, #c8f4d5
+         , #bdf7ff,#bde0ff) !important;
+         padding-top: 5%;
+         padding-bottom: 5%;
+         padding-left: 8%;
+         margin-left:auto;
+         margin-right:auto;
+         h3{
+            font-size:35px;
+            font-weight:normal;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            line-height:50px;
+         }
+         h4{
+            font-size:25px;
+            font-weight:bold;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         }
+      }
+      .total{
+         display: flex;
+         flex-direction:row;
+         justify-content: center;
+         .totalUser{
+            background-color: #ffbdd6;
+         }
+         .totalPost{
+            background-color: #c8f4d5;
+         }
+         .totalCom{
+            background-color:#f9eac3;
+         }
+         .totalPub, .totalUser, .totalPost, .totalCom{
+            display: flex;
+            flex-direction:column;
+            margin-right: 5%;
+            margin-top: 13%;
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            border-radius: 5px;
+            border  :1px solid transparent;
+            padding-top: 5%;
+         }
+         .totalPub{
+            border: 1px solid rgb(95, 180, 230);
+            background-color: rgb(95, 180, 230);
+         }
+         .imgToAllUsers{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            img{
+               margin-left: auto;
+               margin-right: auto;
+               width: 100px;
+               height: 100px;
+               margin-bottom: 15%;
+            }
+            p{
+               text-align: center;
+               color: #202020;
+               font-size: 20px;
+               margin-right: 5%;
+            }
+         }
+         .imgToAllPosts{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            img{
+               margin-left: auto;
+               margin-right: auto;
+               width: 100px;
+               height: 100px;
+               margin-bottom: 15%;
+            }
+            p{
+               text-align: center;
+               color: #202020;
+               font-size: 20px;
+               margin-right: 5%;
+            }
+         }
+         .imgToAllCommandes{
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            img{
+               margin-left: auto;
+               margin-right: auto;
+               width: 100px;
+               height: 100px;
+               margin-bottom: 15%;
+            }
+            p{
+               text-align: center;
+               color: #202020;
+               font-size: 20px;
+               margin-right: 5%;
+            }
+         }
+         h1, p{
+            color: white;
+            margin-top: 5%;
+            text-align: center;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: normal;
+            margin-left: 5%;
+            font-size: 20px;
+         }
+         p{
+            margin-top: -6%;
+         }
+      } 
+      h2{
+         margin-top: -5%;
+         text-align: center;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         margin-left: 5%;
+         font-size: 30px;
+         color : #3b3b3b;
+         letter-spacing:5px;
+         word-spacing:7px;
+   }     
+   }
+  
+}
+
+// search page style
+.recherchePage{
+   padding-top: 12%;
+   .recherchePageBody{
+      width: 600px;
+      height: 130px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      input{
+         font-size: 17px;
+         padding: 5%;
+         border: 1px solid rgb(221, 217, 217);
+         background-color: rgb(221, 217, 217);
+         border-radius: 5px;
+         outline:none;
+         margin-top: auto;
+         margin-bottom: auto;
+         width: 450px;
+         height: 36px;
+      }
+   }
+   .rechercheButton{
+      border: none;
+      padding: 10px;
+      background-color: rgb(95, 180, 230);
+      color: white;
+      border-radius: 5px;
+      font-size: 17px;
+      width: 200px;
+      display : block;
+      margin-top: -20px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+// addPost page Style
+.addPostPage{
+   padding-top: 13%;
+   .contenuaddPostPage{
+      border-radius: 10px;
+      box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+      width: 800px;
+      height: 235px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .formPart1, .formPart2{
+         display: flex;
+         flex-direction: row;
+         justify-content:center;
+         margin-top: 5%;
+         input{
+            outline: none;
+            border: 1px solid rgb(221, 217, 217);
+            border-radius: 3px;
+            padding: 15px;
+            margin-right: 2%;
+            font-size: 17px;
+         }
+         ::placeholder{color: rgb(95, 95, 95);}
+         select{
+            color: rgb(95, 95, 95);
+            outline: none;
+            border: 1px solid rgb(221, 217, 217);
+            border-radius: 3px;
+            padding: 15px;
+            margin-right: 2%;
+            font-size: 17px;
+         }
+      }
+      button{
+         border: none;
+         padding: 10px;
+         background-color: rgb(95, 180, 230);
+         color: white;
+         border-radius: 5px;
+         font-size: 17px;
+         width: 200px;
+         display : block;
+         margin-top: 30px;
+         margin-left: auto;
+         margin-right: auto;
+      }
+   }
+}
+
+// productsPage style
+.productsPage{
+   margin-bottom: 10%;
+   .titrePost{
+      letter-spacing: 5px;
+      word-spacing: 7px;
+      margin-left: 2%;
+      margin-top: 5%;
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-weight: bold;
+      font-size: 2.4rem;
+      background-image: linear-gradient(60deg, #0c0c0c, #eef8ee);
+      background-clip: text;
+      color: transparent;
+    }
+   .allPosts{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .userPost{
+         position: relative;
+         padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 5%;
+        margin-top: 5%;
+        width: 250px;
+        height: 350px;
+        border-radius: 10px;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        color : #3b3b3b;
+        h4{
+           font-size: 15px;
+        }
+        .blockInfo{
+           height: 170px;
+        }
+        .btnuserPost{
+           position: absolute;
+           img{
+              margin-left: 100%;
+            margin-bottom: 0;
+              width:20px;
+              height:20px;
+           }
+        }
+      }
+      .postallpostC{width:300px}
+      .postallpost, .postallpostC{
+         padding-top: 2%;
+         padding-left: 2%;
+         margin-right: 5%;
+         margin-top: 2%;
+         width: 250px;
+         height: 520px;
+         border-radius: 10px;
+         box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+         color : #3b3b3b;
+         .btnfav{
+            background-color: transparent;
+            border: none;
+            img{
+               width:20px;
+               height: 20px;
+            }
+         }
+         .block2{
+            height: 300px;
+            .editSupp{
+               display: flex;
+               flex-direction: row;
+               width: 150px;
+            }
+            h6{
+               margin-left: -8%;
+            }
+            img{
+               margin-top:-10%;
+               margin-left: -8%;
+               margin-bottom: 17%;
+            }
+         }
+        
+       }
+      .post{
+        padding-top: 2%;
+        padding-left: 2%;
+        margin-right: 5%;
+        margin-top: 5%;
+        width: 250px;
+        height: 520px;
+        border-radius: 10px;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        color : #3b3b3b;
+      }
+      .entetePost{
+         display: flex;
+         flex-direction:row;
+         img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+         }
+         h4{
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: normal;
+            margin-left: 5%;
+            margin-top: 10%;
+            font-size: 15px;
+         }
+      }
+      .hrP{
+         width: 230px;
+      }
+      .imgPost{
+         margin-top:-2%;
+         width: 225px;
+         height: 150px;
+      }
+      input{
+         font-size: 12px;
+      }
+      button{
+         margin-top: 2%;
+         width:150px;
+         margin-left: 16%;
+         background-color: rgb(133, 135, 138);
+         border: none;
+         border-radius: 5px;
+         font-weight: bold;
+         font-size: 12px;
+         padding: 2px;
+         color : white;
+         font-weight: normal;
+      }
+      .titlePost, .descPost{
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+      }
+      .descPost{
+         margin-top: -12%;
+         font-size: 15px;
+         font-weight: normal;
+      }
+      .prixPost{
+         margin-top: -12%;
+         font-size: 15px;
+         font-weight: normal;
+      }
+      .villePost{
+         margin-top: -12%;
+         font-size: 15px;
+         font-weight: normal;
+         color : #7a7a7a;
+      }
+      .deuxImg{
+         margin-top: -12%;
+         display: flex;
+         flex-direction: row;
+         justify-content: right;
+         .Edit, .Supp{
+            border: none;
+            width: 20px;
+            height: 20px;
+         }
+         .Edit{
+            margin-right: -200%;
+         }
+      }
+   }
+}
+
+// all user style
+
+.blockUser{
+   margin-left: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .userInfo{
+         padding-top: 1%;
+         padding-left: 1%;
+        margin-right: 5%;
+        margin-top: 5%;
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        color : #3b3b3b;
+        .entete{
+         display: flex;
+         flex-direction:row;
+         img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+         }
+        }
+        
+      }
+}
+
+//AllPosts Style
+.allpostsPageALLPosts{
+   margin-left: 5%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   .post{
+      padding-top: 1%;
+      padding-left: 1%;
+     margin-right: 5%;
+     margin-top: 5%;
+     width: 250px;
+     height: 300px;
+     border-radius: 10px;
+     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+     color : #3b3b3b;
+     
+   }
+}
+
+// Mail
+.Mail{
+   .MailTo{
+      font-size: 20px;
+      font-weight: normal;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-decoration: none;
+      color : #3b3b3b;
+      img{
+         margin-top: -.5%;
+         width:30px;
+         height:30px;
+      }
+   }
+   :hover{
+      text-decoration: underline;
+   }
+}
+.Estimation{
+   margin-top: 3%;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   flex-direction: row;
+   width: 700px;
+   height: 250px;
+   border-radius:10px;
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+   img{
+      padding-top: 35px;
+   }
+   .estDroite{
+      margin-left: 5%;
+      margin-top: 5%;
+      color: #333;
+      h1{
+         line-height:50px;
+         font-size: 18px;
+         font-weight: bold;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      h2{
+         line-height: 28px;
+         font-size: 18px;
+         font-weight: normal;
+         font-family: Arial, Helvetica, sans-serif;
+         span{
+            font-weight: bold;
+         }
+         margin-bottom: 10%;
+      }
+      .annonceLink{
+         text-decoration: none;
+         border: 1px solid rgba(255, 68, 0, 0.781);
+         color: white;
+         background-color: rgba(255, 68, 0, 0.781);
+         border-radius: 5px;
+         font-size: 17px;
+         padding: 5px;
+         padding-bottom: 10px;
+         padding-left: 20px;
+         padding-right: 20px;
+      }
+   }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+.tShop{
+   display: flex;
+   flex-direction: row;
+   width: 1100px;
+   height: 450px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+.Shopping{
+   overflow-x: hidden;
+   overflow-y: auto;
+   display: flex;
+   flex-direction: column;
+   .article{
+      width: 1000px;
+      display: flex;
+      flex-direction:column;
+      padding-top:2%;
+      margin-left: 5%;
+      .hr{
+         margin-top:2%;
+         margin-bottom:2%;
+         width: 720px;
+      }
+      .bodyArticle{
+         display: flex;
+         flex-direction:row;
+         width: 700px;
+         img{
+            width: 150px;
+            height: 100px;
+         }
+         h1{
+            text-align: left;
+            margin-left: 15%;
+            margin-top:5%;
+            font-size:25px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            width: 150px;
+         }
+         button{
+            margin-left: 15%;
+            margin-top:3%;
+            background-color:transparent;
+            border: none;
+            height:50px;
+         }
+         
+      }
+   }
+   &::-webkit-scrollbar {
+      border-radius: 10px;
+      height: 10px;
+      width: 5px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: linear-gradient(50deg, #ced47691, #e664809c);
+      border-radius: 10px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+}
+.partTotal{
+   color: rgb(43, 42, 42);
+   background-color: #aaa9aa93;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   h1{
+      margin-top: 10%;
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-size: 30px;
+      font-weight: normal;
+   }
+   img{
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:2%;
+      width: 200px;
+      height: 200px;
+   }
+   hr{
+      width: 230px;
+      margin-left:auto;
+      margin-right:auto;
+   }
+   .prix{
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+   }
+   .link{
+      text-decoration: none;
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      margin-top:2%;
+      width:100px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5px;
+      background: linear-gradient(50deg, #e66480, #ced476);
+      color: rgb(43, 42, 42);
+      padding-top:7px;
+      border-radius: 5px;
+   }
+}
+}
+
+//payment page style
+.paymentPage{
+   overflow-x: hidden;
+   overflow-y: hidden;
+   width:100%;
+   height:721px;
+   background: linear-gradient(10deg, #4344445d, #ffffff00);
+   display: flex;
+   flex-direction: row;
+   img{
+      margin-left: 2%;
+   }
+   .btnBtn{
+      display: flex;
+      flex-direction:column;
+      margin-left:10%;
+      margin-top: auto;
+      margin-bottom: auto;
+   .btnPay{
+      .StripeCheckout{
+         width: 400px;
+         padding-top: 10px !important;
+         font-size:20px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         color: white !important;
+         height:50px;
+         background-image: none !important;
+         background: linear-gradient(50deg, #e66480, #ced476) !important;
+         span{
+            visibility: hidden !important;
+         }
+      }
+      ::before{
+         content: "Payer en ligne";
+         letter-spacing: 2px;
+         word-spacing: 5px;
+         text-align: center !important;
+      }
+   }
+   .livraison{
+      margin-top:5%;
+      border-radius: 5px;
+      text-decoration: none;
+      width: 400px;
+      padding-top: 10px !important;
+      font-size:20px;
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      color: white !important;
+      height:50px;
+      background-image: none !important;
+      background: linear-gradient(50deg, #e66480, #ced476) !important;
+      letter-spacing: 2px;
+      word-spacing: 5px;
+      text-align: center !important;
+   }
+}}
+
+// done page styles
+.done{
+   display: flex;
+   flex-direction: row;
+   img{
+      width: 600px;
+      height: 570px;
+      margin-left:5%;
+   }
+   .bodyDone{
+      margin-left:5%;
+      margin-top: 5%;
+      h1{
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         font-size:30px;
+         letter-spacing:3px;
+         word-spacing: 7px;
+         text-align: center;
+         line-height:65px;
+         width: 700px;
+         margin-bottom: 10%;
+      }
+      .homeLink{
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         font-weight: normal;
+         font-size: 20px;
+         text-decoration: none;
+         margin-left: 15%;
+         background-color: rgba(255, 166, 0, 0.685);
+         color: white;
+         border-radius: 5px;
+         padding: 10px;
+         padding-left: 40px;
+         padding-right: 40px;
+      }
+   }
+}
+//mes commande styles
+.mesCommandes{
+   img{
+      margin-left:72%;
+      margin-top: -3.5%;
+      width: 420px;
+      height: 420px;
+   }
+   .titrePost{
+      margin-bottom: -2%;
+      letter-spacing: 5px;
+      word-spacing: 7px;
+      margin-left: 2%;
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-weight: bold;
+      font-size: 2.4rem;
+      background-image: linear-gradient(#008060, #eef8ee);
+      background-clip: text;
+      color: transparent;
+    }
+  .diva{
+   margin-top:5%;
+   border-radius: 10px;
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+   width: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top:2%;
+   padding-bottom: 2%;
+   table{
+      border-collapse : separate;
+     border-spacing: 15px;
+      width:900px;
+      margin-right: auto;
+      margin-left: auto;
+      tr{
+         th{
+            color: rgb(255, 174, 0);
+            font-weight: normal;
+            font-size:18px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         }
+         td{
+            font-weight: normal;
+            font-size:15px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         }
+      }
+   }
+  }
+}
+
+.productsPage{
+   .SD{
+      font-size: 17px;
+      padding: 2%;
+      border: 1px solid rgba(221, 217, 217, 0.479);
+      background-color: rgba(221, 217, 217, 0.479);
+      border-radius: 5px;
+      outline:none;
+      margin-top: 5%;
+      margin-bottom: auto;
+      margin-left: 32%;
+      width: 500px;
+      height: 20px;
+   }
+   // button{
+   //    border: 1px solid rgb(221, 217, 217);
+   //    background-color: rgb(221, 217, 217);
+   //    outline:none;
+   //    border-radius: 5px;
+   //    outline:none;
+   //    margin-bottom: auto;
+   //    width: 40px;
+   //    // margin-left: 5px;
+   //    height: 65px;
+   //    img{
+   //       width: 30px;
+   //       height: 30px;
+   //    }
+   // }
+   .allUsersS{
+      box-shadow: none !important;
+   }
+   .allUsers, .allUsersS{
+   margin-top:-.01%;
+   border-radius: 10px;
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top:2%;
+   padding-bottom: 2%;
+   table{
+      border-collapse : separate;
+     border-spacing: 15px;
+      width:900px;
+      margin-right: auto;
+      margin-left: auto;
+      tr{
+         border-bottom: 1px solid black;
+
+         th{
+            font-weight: normal;
+            font-size:18px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         }
+         td{
+            font-weight: normal;
+            font-size:15px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         }
+      }
+      
+      .userPost{
+         td{
+            font-weight: normal;
+            font-size:15px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            button{
+               img{
+                  width:20px;
+                  height:20px;
+               }
+            }
+         }
+         .entetePost{
+            margin-top:2%;
+            display:flex;
+            flex-direction: row;
+            .profilePic{
+               width: 30px;
+               height: 30px;
+               border-radius:50px; 
+            }
+            h4{
+               margin-top:7%;
+               margin-left: 15%;
+               font-weight: normal;
+            font-size:15px;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            }
+         }
+      }
+   }
+   }
+}
+
+.commandesPage{
+   .titrePost{
+      letter-spacing: 5px;
+      word-spacing: 7px;
+      margin-left: 2%;
+      margin-top: 5%;
+      font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      font-weight: bold;
+      font-size: 2.4rem;
+      background-image: linear-gradient(60deg, #0c0c0c, #eef8ee);
+      background-clip: text;
+      color: transparent;
+    }
+   .SD{
+      font-size: 17px;
+      padding: 2%;
+      border: 1px solid rgba(221, 217, 217, 0.479);
+      background-color: rgba(221, 217, 217, 0.479);
+      border-radius: 5px;
+      outline:none;
+      margin-top: 5%;
+      margin-bottom: auto;
+      margin-left: 32%;
+      width: 500px;
+      height: 20px;
+   }
+.allUsersS{
+   box-shadow: none !important;
+}
+.allUsers, .allUsersS{
+
+border-radius: 10px;
+box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+width: 1400px;
+margin-left: auto;
+margin-right: auto;
+padding-top:2%;
+padding-bottom: 2%;
+table{
+   border-collapse : separate;
+  border-spacing: 20px;
+   width:1350px;
+   margin-right: auto;
+   margin-left: auto;
+   tr{
+      border-bottom: 1px solid black;
+
+      th{
+         font-weight: normal;
+         font-size:15px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         color: rgb(77, 76, 76);
+         font-weight: bold;
+      }
+      td{
+         font-weight: normal;
+         font-size:15px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+      }
+   }
+   
+   .userPost{
+      td{
+         font-weight: normal;
+         font-size:15px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         .btn1{
+          border: none;
+          background-color:  #e66480b0;
+          outline: none !important;
+          border-radius: 5px;
+          padding: 5px;
+          width: 100px;
+         }
+         .btn2{
+            width: 100px;
+            padding: 5px;
+            border: none;
+            background-color:  #ced4769f;
+            outline: none !important;
+            border-radius: 5px;
+           }
+      }
+      .entetePost{
+         margin-top:2%;
+         display:flex;
+         flex-direction: row;
+         .profilePic{
+            width: 30px;
+            height: 30px;
+            border-radius:50px; 
+         }
+         h4{
+            margin-top:7%;
+            margin-left: 15%;
+            font-weight: normal;
+         font-size:15px;
+         font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+         }
+      }
+   }
+}
+}
+}
