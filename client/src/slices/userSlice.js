@@ -153,7 +153,7 @@ export const updateFavorisPull = createAsyncThunk('user/updateFavorisPull'
 , async(info,{rejectWithValue, dispatch})=>{
     try {
         await axios.put(
-            '/person/favoris/pull',
+            'api/person/favoris/pull',
              info,
               {
                 headers: { 
@@ -163,6 +163,7 @@ export const updateFavorisPull = createAsyncThunk('user/updateFavorisPull'
            );
            return dispatch(loadUserInfo());
     } catch (errors) {
+        console.log(errors.response.data.msg)
         return rejectWithValue(errors.response.data.msg)
     }
 });
