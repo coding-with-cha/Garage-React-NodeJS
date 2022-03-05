@@ -107,7 +107,7 @@ const deleteUser = async(req,res)=>{
 //@ access PRIVATE - owner
 const updateProfilePicture = async(req,res)=>{
     try {
-        const imageUrl = `http://localhost:5000/uploads/${req.file.filename}`
+        const imageUrl = `/uploads/${req.file.filename}`
         await Person.findByIdAndUpdate(req.personId,{profilePic:imageUrl})
         res.json({msg:'profile picture updated'})
     } catch (error) {
