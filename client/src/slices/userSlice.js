@@ -153,7 +153,7 @@ export const updateFavorisPull = createAsyncThunk('user/updateFavorisPull'
 , async(info,{rejectWithValue, dispatch})=>{
     try {
         await axios.put(
-            'http://localhost:5000/api/person/favoris/pull',
+            '/person/favoris/pull',
              info,
               {
                 headers: { 
@@ -172,7 +172,7 @@ export const updateStatut = createAsyncThunk('user/updateStatut'
 , async(info,{rejectWithValue, dispatch})=>{
     try {
         await axios.put(
-            'http://localhost:5000/api/commande',
+            '/api/commande',
              info,
               {
                 headers: { 
@@ -190,7 +190,7 @@ export const updateModePay = createAsyncThunk('user/updateModePay'
 , async(info,{rejectWithValue, dispatch})=>{
     try {
         await axios.put(
-            'http://localhost:5000/api/person/modepay',
+            '/api/person/modepay',
              info,
               {
                 headers: { 
