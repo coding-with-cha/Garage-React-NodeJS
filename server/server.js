@@ -32,6 +32,12 @@ app.use('/uploads', express.static(path.join(__dirname,'../','img-uploads')))
 //
 app.use(bodyparser.urlencoded({ extended: false }))
 app.use(bodyparser.json())
+//
+app.use(express.static(path.join(__dirname,'../','client','build')))
+app.get('*',(req,res)=>{
+  res.sendFile(path.join(__dirname,'../','client','build','index.html'))
+})
+
 app.get("/", (req, res) => {
     res.send("Add your Stripe Secret Key to the .require('stripe') statement!");
   });
@@ -80,7 +86,6 @@ app.get("/", (req, res) => {
 
   res.json({ error, status });
 });
-
 
 
 
