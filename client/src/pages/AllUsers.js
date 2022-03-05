@@ -57,7 +57,7 @@ const AllUsers = () => {
     <h1 className="titrePost">Liste des utilisateurs</h1>
     {/* {loading && <p>loading...</p>}
     {errors && <p>{errors}</p>} */}
- <input className="SD" type="text" placeholder="Taper l'email à chercher" type="text"
+ <input className="SD" type="text" placeholder="Taper l'email à chercher" 
                        onChange={(e)=>handleSearch(e.target.value)}/>
  {/* <button onClick={()=>{handleSearch(email)}}><img src={glass}/></button>    */}
 {list && 
