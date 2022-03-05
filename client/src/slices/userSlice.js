@@ -4,7 +4,7 @@ import axios from 'axios'
 export const registerUser = createAsyncThunk('user/register', async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.post(
-            'http://localhost:5000/api/person/register',
+            '/api/person/register',
             info.data);
             info.navigate('/login')
         return data;
@@ -17,7 +17,7 @@ export const registerUser = createAsyncThunk('user/register', async(info,{reject
 export const loginUser = createAsyncThunk('user/loginUser', async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.post(
-            'http://localhost:5000/api/person/login',
+            '/api/person/login',
             info.data);
             data.role === 'user' ? info.navigate('/profile') 
             : data.role === 'admin' && info.navigate('/dashboard');
@@ -33,7 +33,7 @@ export const loadUserInfo = createAsyncThunk('user/loadUserInfo'
 , async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-            'http://localhost:5000/api/person/personInfo', {
+            '/api/person/personInfo', {
                 headers: { 
                     token: localStorage.getItem('token'),
                 },
@@ -50,7 +50,7 @@ export const getUserById = createAsyncThunk('user/getUserById'
 , async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-           ` http://localhost:5000/api/person/personInfo/${info._id}`, {
+           `/api/person/personInfo/${info._id}`, {
                 headers: { 
                     token: localStorage.getItem('token'),
                 },
@@ -67,7 +67,7 @@ export const updateUserWithID = createAsyncThunk('user/updateUserWithID',
 async(info,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.put(
-            `http://localhost:5000/api/person/${info._id}`, info,
+            `/api/person/${info._id}`, info,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -82,7 +82,7 @@ export const getUsers = createAsyncThunk('post/getUsers',
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-            'http://localhost:5000/api/person/allUsers',
+            '/api/person/allUsers',
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -97,7 +97,7 @@ export const deleteUserWithID = createAsyncThunk('post/deleteUserWithID',
 async(userId,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.delete(
-            `http://localhost:5000/api/person/${userId}`,
+            `/api/person/${userId}`,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -114,7 +114,7 @@ export const updateProfilePic = createAsyncThunk('user/updateProfilePic'
         const formPic = new FormData();
         formPic.append('profilePicture',file)
         const {data} = await axios.put(
-            'http://localhost:5000/api/person/profilePic',
+            '/api/person/profilePic',
              formPic,
               {
                 headers: { 
@@ -135,7 +135,7 @@ export const updateFavoris = createAsyncThunk('user/updateFavoris'
 , async(info,{rejectWithValue, dispatch})=>{
     try {
         await axios.put(
-            'http://localhost:5000/api/person/favoris/favoris',
+            '/api/person/favoris/favoris',
              info,
               {
                 headers: { 

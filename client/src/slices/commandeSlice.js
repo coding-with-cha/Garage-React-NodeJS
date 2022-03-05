@@ -7,7 +7,7 @@ export const registerCommande = createAsyncThunk('commande/registerCommande',
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.post(
-            'http://localhost:5000/api/commande',
+            '/api/commande',
             info,
             {
                 headers: { 
@@ -26,7 +26,7 @@ export const updateStatut = createAsyncThunk('commande/updateStatut'
 , async(info,{rejectWithValue, dispatch})=>{
     try {
         await axios.put(
-            `http://localhost:5000/api/commande/${info._id}`,info,
+            `/api/commande/${info._id}`,info,
             {
                 headers: { 
                     token: localStorage.getItem('token'),
@@ -44,7 +44,7 @@ export const getCommandes = createAsyncThunk('commande/getCommandes',
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-            'http://localhost:5000/api/commande/getAll',
+            '/api/commande/getAll',
             {headers: { 
                 token: localStorage.getItem('token'),
                 }
@@ -60,7 +60,7 @@ export const getCommandesWithID = createAsyncThunk('commande/getCommandesWithID'
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-            'http://localhost:5000/api/commande/forOwner/forOwner',
+            '/api/commande/forOwner/forOwner',
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -74,7 +74,7 @@ export const getCommandeById = createAsyncThunk('commande/getCommandeById'
 , async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-           ` http://localhost:5000/api/commande/${info._id}`, {
+           `/api/commande/${info._id}`, {
                 headers: { 
                     token: localStorage.getItem('token'),
                 },
@@ -91,7 +91,7 @@ export const deleteCommandeWithID = createAsyncThunk('commande/deleteCommandeWit
 async(info,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.delete(
-            `http://localhost:5000/api/commande/${info._id}`,
+            `/api/commande/${info._id}`,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -105,7 +105,7 @@ export const updateCommandeModePayWithID = createAsyncThunk('commande/updateComm
 async(info,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.put(
-            `http://localhost:5000/api/commande/${info._id}`,
+            `/api/commande/${info._id}`,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -119,7 +119,7 @@ export const updateProdCard = createAsyncThunk('commande/updateProdCard'
 , async(info,{rejectWithValue, dispatch})=>{
     try {
         await axios.put(
-           ` http://localhost:5000/api/commande/upProduitsCard/${info._id}`,
+           `/api/commande/upProduitsCard/${info._id}`,
              info,
               {
                 headers: { 

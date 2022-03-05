@@ -8,7 +8,7 @@ export const getPosts = createAsyncThunk('post/getPosts',
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-            'http://localhost:5000/api/post',
+            '/api/post',
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -22,7 +22,7 @@ export const createPost = createAsyncThunk('post/createPost',
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.post(
-            'http://localhost:5000/api/post',
+            '/api/post',
             info.data,
             {
                 headers: { 
@@ -40,7 +40,7 @@ export const getPostsWithID = createAsyncThunk('post/getPostsWithID',
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-            'http://localhost:5000/api/post/withId',
+            '/api/post/withId',
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -54,7 +54,7 @@ export const getPostsFilter = createAsyncThunk('post/getPostsFilter',
 async(info,{rejectWithValue})=>{
     try {
         const {data} = await axios.get(
-           ` http://localhost:5000/api/post/${info}`);
+           `/api/post/${info}`);
         return data;
     } catch (errors) {
         return rejectWithValue(errors.response.data.msg)
@@ -65,7 +65,7 @@ export const deletePostsWithID = createAsyncThunk('post/deletePostsWithID',
 async(postId,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.delete(
-            `http://localhost:5000/api/post/${postId}`,
+            `/api/post/${postId}`,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -78,7 +78,7 @@ export const deletePostsWithIDP = createAsyncThunk('post/deletePostsWithIDP',
 async(postId,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.delete(
-            `http://localhost:5000/api/post/${postId}`,
+            `/api/post/${postId}`,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -92,7 +92,7 @@ export const updatePostsWithIDP = createAsyncThunk('post/updatePostsWithID',
 async(postInfo,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.put(
-            `http://localhost:5000/api/post/${postInfo._id}`, postInfo,
+            `/api/post/${postInfo._id}`, postInfo,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -107,7 +107,7 @@ export const updatePostsWithID = createAsyncThunk('post/updatePostsWithID',
 async(postInfo,{rejectWithValue, dispatch})=>{
     try {
         const {data} = await axios.put(
-            `http://localhost:5000/api/post/${postInfo._id}`, postInfo,
+            `/api/post/${postInfo._id}`, postInfo,
             {headers: { 
                 token: localStorage.getItem('token'),
             }},);
@@ -128,7 +128,7 @@ export const updatePostPic = createAsyncThunk('user/updatePostPic'
         // console.log(info._id)
         // console.log(info.file)
         const {data} = await axios.put(
-            `http://localhost:5000/api/post/postPic/${info._id}`,
+            `/api/post/postPic/${info._id}`,
              formPic,
               {
                 headers: { 
