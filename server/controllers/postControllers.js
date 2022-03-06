@@ -91,7 +91,7 @@ const getPostsFiltered = async(req, res)=>{
 //@ access PRIVATE - owner
 const updatePostPicture = async(req,res)=>{
     try {
-        const imageUrl = `/uploads/${req.file.filename}`
+        const imageUrl = `https://garagedepo.herokuapp.com/uploads/${req.file.filename}`
         await Post.findByIdAndUpdate(req.params.postId,{postPic:imageUrl})
         res.json({msg:'post picture updated'})
     } catch (error) {

@@ -10,7 +10,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://garagedepo.herokuapp.com/'
 
-ReactDOM.render(
+ReactDOM.render( 
   <BrowserRouter>
   <Provider store={store}>
     <App />
