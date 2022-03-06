@@ -22,8 +22,8 @@ const postSchema = mongoose.Schema({
         required:true,
     },
     postPic:{
-        imageURL:String,
-        public_id:String,
+        type: String,
+        default: 'https://t3.ftcdn.net/jpg/01/80/31/10/240_F_180311099_Vlj8ufdHvec4onKSDLxxdrNiP6yX4PnP.jpg'
     },
     owner:{
         type:mongoose.Schema.Types.ObjectId,

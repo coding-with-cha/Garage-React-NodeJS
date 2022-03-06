@@ -1,6 +1,5 @@
 const Person = require('../models/personModel');
 const Post = require('../models/postModel');
-const cloudConfig = require('../helpers/cloudinary')
 
 
 // @desc create a post
@@ -92,9 +91,8 @@ const getPostsFiltered = async(req, res)=>{
 //@ access PRIVATE - owner
 const updatePostPicture = async(req,res)=>{
     try {
-        // const imageUrl = `/uploads/${req.file.filename}`
-        const imgInfo = await cloudConfig.uploader.upload(req.file.path)
-        await Post.findByIdAndUpdate(req.params.postId,{postPic:{imageURL:imgInfo.url,public_id:imgInfo.public_id}})
+        const imageUrl = `/uploads/${req.file.filename}`
+        await Post.findByIdAndUpdate(req.params.postId,{postPic:imageUrl})
         res.json({msg:'post picture updated'})
     } catch (error) {
         console.log(error)

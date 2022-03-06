@@ -59,7 +59,8 @@ const AllPosts = () => {
 
           <h1 className="titrePost">Liste des publications</h1>
 
-<input className="SD" type="text" placeholder="Taper l'id de la publication"  onChange={(e)=>handleSearch(e.target.value)}/>
+<input className="SD" type="text" placeholder="Taper l'id de la publication"
+                       onChange={(e)=>handleSearch(e.target.value)}/>
          
  <div className="allPosts" style={{marginTop:"2%"}}>
     {list && list.map(post=>(
@@ -71,7 +72,7 @@ const AllPosts = () => {
         <hr/>
         <div className="block2">
           <h6 className="titlePost">{post.title}</h6><br/>
-          <img src={post.postPic.imageURL} className="imgPost"/>
+          <img src={post.postPic} className="imgPost"/>
           <h6 className="descPost">{post.description}</h6><br/>
           <h6 className="prixPost">{post.prix} DT</h6><br/>
           <h6 className="villePost">{post.ville}</h6><br/></div>
