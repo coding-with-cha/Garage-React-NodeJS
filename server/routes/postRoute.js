@@ -4,18 +4,35 @@ const adminCheckMiddleware = require('../middlewares/adminCheck');
 const authMiddleware = require('../middlewares/authMiddleware');
 const router = express.Router()
 const multer = require('multer')
+const {CloudinaryStorage} = require('multer-storage-cloudinary')
+const cloudinary = require('cloudinary').v2;
+require('dotenv').config();
 
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-      cb(null, './img-uploads')
-    },
-    filename: function (req, file, cb) {
-      const uniqueSuffix = Date.now() + '-' + file.originalname
-      cb(null, uniqueSuffix)
-    }
-  })
+const cloudConfig = cloudinary.config({
+    cloud_name:process.env.CLOUD_NAME,
+    api_key:process.env.API_KEY,
+    api_secret:process.env.API_SECRET,
+})
 
-const upload = multer({ storage: storage })
+const storage = new CloudinaryStorage({
+  cloudinary,
+  params:{
+    folder: "DEV"
+  },
+})
+
+// const storage = multer.diskStorage({
+//     destination: function (req, file, cb) {
+//       cb(null, './img-uploads')
+//     },
+//     filename: function (req, file, cb) {
+//       const uniqueSuffix = Date.now() + '-' + file.originalname
+//       cb(null, uniqueSuffix)
+//     }
+//   })
+
+
+const upload = multer({ storage })
 
 router.put(
     '/postPic/:postId', 
