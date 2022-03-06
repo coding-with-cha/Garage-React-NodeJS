@@ -7,7 +7,7 @@ import BtnaddToFav from '../components/BtnaddToFav';
 import Estimation from '../components/Estimation';
 
 const Clothing = () => {
-
+// 
   const dispatch = useDispatch();
   useEffect(()=>{
     dispatch(getPostsFilter("Vêtements"));
