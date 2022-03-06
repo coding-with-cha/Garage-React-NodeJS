@@ -107,7 +107,7 @@ const deleteUser = async(req,res)=>{
 //@ access PRIVATE - owner
 const updateProfilePicture = async(req,res)=>{
     try {
-        const imageUrl = `https://garagedepo.herokuapp.com/uploads/${req.file.filename}`
+        const imageUrl = `/uploads/${req.file.filename}`
         await Person.findByIdAndUpdate(req.personId,{profilePic:imageUrl})
         res.json({msg:'profile picture updated'})
     } catch (error) {
