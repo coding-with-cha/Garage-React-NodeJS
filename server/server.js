@@ -25,7 +25,7 @@ app.use('/api/commande', require('./routes/commandeRoute'))
 
 
 //images path
-app.use('api/uploads', express.static(path.join(__dirname,'../','img-uploads')))
+app.use('/uploads', express.static(path.join(__dirname,'../','img-uploads')))
 
 
 
