@@ -19,7 +19,7 @@ import vide from '../images/vide.png'
 
 const Navbar = () => {
     const {isAuth, role, card} = useSelector((state)=> state.user);
-    const {profilePic} = useSelector((state)=>state.user.userInfo);
+    const {profilePic, name} = useSelector((state)=>state.user.userInfo);
     
 
 
@@ -56,7 +56,7 @@ const Navbar = () => {
 {isAuth && role === 'admin' ?  
     <Link to='/Dashboard' className="ProfDash"><img src={profilePic}/><h1>Dashboard</h1></Link> :
     isAuth && role === 'user' ?
-    <Link to='/Profile' className="ProfDash"><img src={profilePic}/><h1>Profile</h1></Link> :
+    <Link to='/Profile' className="ProfDash"><img src={profilePic}/><h1>{name}</h1></Link> :
     <div className="logIn">
       <Link to='/Login' className="Link">
         <img src={logIn}/>
