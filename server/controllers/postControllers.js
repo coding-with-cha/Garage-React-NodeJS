@@ -1,3 +1,4 @@
+const cloudinary = require("cloudinary").v2;
 const Person = require('../models/personModel');
 const Post = require('../models/postModel');
 
@@ -91,8 +92,10 @@ const getPostsFiltered = async(req, res)=>{
 //@ access PRIVATE - owner
 const updatePostPicture = async(req,res)=>{
     try {
-        const imageUrl = `/uploads/${req.file.filename}`
-        await Post.findByIdAndUpdate(req.params.postId,{postPic:imageUrl})
+        const imageUrl = `http://localhost:5000/uploads/${req.file.filename}`
+        const imageInfo = await cloudinary.uploader.upload(req.file.path)
+        console.log(imageInfo.url)
+        await Post.findByIdAndUpdate(req.params.postId,{postPic:imageInfo.url})
         res.json({msg:'post picture updated'})
     } catch (error) {
         console.log(error)
