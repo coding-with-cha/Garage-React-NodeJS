@@ -1,3 +1,4 @@
+const cloudinary = require("cloudinary").v2;
 const Person = require('../models/personModel');
 const bcrypt = require('bcryptjs')
 const{validationResult} = require('express-validator')
@@ -100,15 +101,16 @@ const deleteUser = async(req,res)=>{
         console.log(error)
         res.status(500).json({msg:'something went wrong'});
     }
-}
+} 
 
 // @desc update user profile picture
 // @route PUT /api/person/profilePic
 //@ access PRIVATE - owner
 const updateProfilePicture = async(req,res)=>{
     try {
-        const imageUrl = `/uploads/${req.file.filename}`
-        await Person.findByIdAndUpdate(req.personId,{profilePic:imageUrl})
+        const imageInfo = await cloudinary.uploader.upload(req.file.path)
+        console.log(imageInfo.url)
+        await Person.findByIdAndUpdate(req.personId,{profilePic:imageInfo.url})
         res.json({msg:'profile picture updated'})
     } catch (error) {
         console.log(error)
