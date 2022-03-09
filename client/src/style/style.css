@@ -666,7 +666,7 @@
       flex-shrink: 0;
   width: 24rem;
   height: 47rem;
-  border-radius: 6rem;
+  border-radius: 3.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -693,7 +693,7 @@
 
 .home .WandP .main .iphone-body .img {
   margin-left: 10%;
-  border-radius: 6rem;
+  border-radius: 3.5rem;
 }
 
 .home .WandP .main .iphone-body .contenu {
@@ -746,7 +746,7 @@
   top: 0;
   bottom: 0;
   border: .5rem solid  #484848;
-  border-radius: 6rem;
+  border-radius: 3.5rem;
 }
 
 .home .WandP .main .round-shape-2 {
@@ -756,7 +756,7 @@
   top: 0.3rem;
   bottom: 0.3rem;
   border: 1.2rem solid  #000000;
-  border-radius: 5.6rem;
+  border-radius: 3.1rem;
 }
 
 .home .WandP .main .round-shape-color1 {
@@ -766,7 +766,7 @@
   top: 1.1rem;
   bottom: 1.1rem;
   border: .1rem solid  #484848;
-  border-radius: 5rem;
+  border-radius: 2.5rem;
   -webkit-filter: blur(1px);
           filter: blur(1px);
   opacity: .5;
@@ -779,7 +779,7 @@
   top: 0.7rem;
   bottom: 0.7rem;
   border: .2rem solid  #bcbcbc;
-  border-radius: 5.6rem;
+  border-radius: 3.1rem;
   opacity: .5;
   -webkit-filter: blur(1px);
           filter: blur(1px);
@@ -798,7 +798,7 @@
 .home .WandP .main .camera {
   position: absolute;
   bottom: 12px;
-  right: 1.5rem;
+  right: 3.5rem;
   width: 0.5rem;
   height: 0.5rem;
   border: .1rem solid  #1e1f22;
@@ -810,8 +810,8 @@
 .home .WandP .main .speaker {
   position: absolute;
   bottom: 0.8rem;
-  right: 4rem;
-  width: 5rem;
+  right: 5rem;
+  width: 3.5rem;
   height: .3rem;
   background-color: #333;
   border-radius: .2rem;
@@ -865,17 +865,17 @@
 
 .home .WandP .main .tt .time {
   color: #008060;
-  margin-top: 35px;
-  margin-left: -200%;
+  margin-top: 30px;
+  margin-left: -190%;
   position: absolute;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   font-family: 'Roboto',  sans-serif;
 }
 
 .home .WandP .main .tt .top-right {
-  margin-left: 215%;
-  margin-top: 35px;
+  margin-left: 212%;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -954,7 +954,7 @@
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.4);
   margin-top: 52px;
-  margin-right: -14.9rem;
+  margin-right: -16.2rem;
 }
 
 .loginPage, .registerPage {
