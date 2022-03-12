@@ -2671,9 +2671,8 @@
     width: 320px;
   }
   .home .bodyHome .homeSection1-2 {
-    padding-top: 2%;
+    padding-top: 4%;
     margin-top: 5%;
-    width: 390px;
     margin-left: 0;
     margin-right: 0;
     height: 400px;
@@ -2686,7 +2685,7 @@
   .home .bodyHome .homeSection1-2 h1,
   .home .bodyHome .homeSection1-2 h2 {
     margin-bottom: 12%;
-    width: 320px;
+    width: 335px;
   }
   .home .bodyHome .homeSection1-2 .annonceLink {
     font-size: 20px;
@@ -2694,8 +2693,9 @@
     padding-right: 85px;
   }
   .home .bodyHome .homeSection2 {
-    width: 310px;
-    padding-left: 1%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .home .bodyHome .homeSection2 p {
     text-align: justify;
@@ -2704,7 +2704,7 @@
   .home .bodyHome .footer {
     margin-left: 0;
     margin-right: 0;
-    width: 390px;
+    width: 100%;
     padding-left: 7%;
     font-size: 20px;
   }
