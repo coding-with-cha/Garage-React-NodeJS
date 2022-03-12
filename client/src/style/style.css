@@ -31,7 +31,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-family: 'Zen Kurenaido', sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
   color: #008060;
   font-size: 40px;
   font-weight: normal;
@@ -71,7 +71,7 @@
   margin-top: 5%;
   margin-left: 10%;
   font-size: 22px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   color: #008060;
 }
@@ -85,14 +85,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: .7%;
-  margin-left: 25%;
+  margin-top: 200%;
+  margin-left: -20%;
   background: transparent;
 }
 
 .navBar .Favoris img {
-  width: 27px;
-  height: 27px;
+  width: 50px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   background: transparent;
@@ -100,11 +100,11 @@
 
 .navBar .Favoris h1 {
   background: transparent;
-  margin-top: -.001%;
+  margin-top: -0.001%;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
-  color: #008060;
+  color: #c5c7bd;
 }
 
 .navBar .logIn {
@@ -116,8 +116,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: .6%;
-  margin-left: 2%;
+  margin-top: 100%;
+  margin-left: -20%;
 }
 
 .navBar .logIn .Link {
@@ -128,17 +128,17 @@
 
 .navBar .logIn .Link img {
   background: transparent;
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 .navBar .logIn .Link h1 {
   background: transparent;
-  margin-top: -.001%;
+  margin-top: -0.001%;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
-  color: #008060;
+  color: #c5c7bd;
 }
 
 .navBar .rotateA {
@@ -162,15 +162,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: .48%;
-  margin-left: 2%;
+  margin-top: 100%;
+  margin-left: -20%;
   background: transparent;
   text-decoration: none;
 }
 
 .navBar .ProfDash img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   padding-top: -5px;
   margin-left: auto;
@@ -180,11 +180,11 @@
 
 .navBar .ProfDash h1 {
   background: transparent;
-  margin-top: -.001%;
+  margin-top: -0.001%;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
-  color: #008060;
+  color: #c5c7bd;
 }
 
 .navBar .logout {
@@ -195,18 +195,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: .7%;
-  margin-left: 1.5%;
   background: transparent;
   text-decoration: none;
   border: none;
   outline: none;
   background: transparent;
+  margin-top: 100%;
+  margin-left: -20%;
 }
 
 .navBar .logout img {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   background: transparent;
@@ -214,16 +214,17 @@
 
 .navBar .logout h1 {
   background: transparent;
-  margin-top: -.001%;
+  margin-top: -0.001%;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
-  color: #008060;
+  color: #c5c7bd;
+  width: 200px;
 }
 
 .navBar .ShoppingCard {
-  margin-top: .9%;
-  margin-left: 1.5%;
+  margin-top: 100%;
+  margin-left: -20%;
   background: transparent;
   text-decoration: none;
   border: none;
@@ -232,8 +233,8 @@
 }
 
 .navBar .ShoppingCard img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   background: transparent;
@@ -241,19 +242,13 @@
 
 .home {
   position: relative;
-  width: 950px;
-  margin-left: auto;
-  margin-right: auto;
+  width: auto;
 }
 
 .home .bodyHome {
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
   margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 900px;
+  width: 950px;
   height: 400px;
 }
 
@@ -272,7 +267,7 @@
 }
 
 .home .bodyHome .middleBodyHome h1 {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: normal;
   background: transparent;
   color: white;
@@ -292,7 +287,7 @@
 }
 
 .home .bodyHome .middleBodyHome .link {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: bold;
   background: transparent;
   color: #008060;
@@ -304,8 +299,8 @@
   background-color: white;
   padding-left: 2%;
   padding-right: 2%;
-  padding-top: .5%;
-  padding-bottom: .7%;
+  padding-top: 0.5%;
+  padding-bottom: 0.7%;
   border-radius: 50px;
 }
 
@@ -364,12 +359,13 @@
 .home .bodyHome .homeSection1 {
   background: transparent;
   margin-top: 10%;
+  width: 100%;
 }
 
 .home .bodyHome .homeSection1 h1 {
   color: #252525;
   background: transparent;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   font-size: 40px;
 }
@@ -410,14 +406,14 @@
 }
 
 .home .bodyHome .homeSection1 .wrapper .item .text h1 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   text-align: center;
   color: white;
   background: transparent;
   font-size: 25px;
   letter-spacing: 3px;
-  text-shadow: 2px 0 0 #008060, -2px 0 0 #008060, 0 2px 0 #008060, 0 -2px 0 #008060, 1px 1px #008060, -1px -1px 0 #008060, 1px -1px 0 #008060, -1px 1px 0 #008060;
+  text-shadow: 2px 0 0 #008060, -2px 0 0 #008060, 0 2px 0 #008060, 0 -2px 0 #008060, 1px 1px #008060, -1px -1px 0 #008060, 1px -1px 0 #008060, -1px 1px 0 #008060;
 }
 
 .home .bodyHome .homeSection1 .wrapper::-webkit-scrollbar {
@@ -437,7 +433,7 @@
 
 .home .bodyHome .homeSection1-2 {
   margin-top: 15%;
-  width: 955px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -453,7 +449,7 @@
 .home .bodyHome .homeSection1-2 h1 {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   margin-top: 8%;
   line-height: 30px;
 }
@@ -463,14 +459,14 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 .home .bodyHome .homeSection1-2 .annonceLink {
   text-decoration: none;
   font-size: 18px;
   font-weight: normal;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   color: white;
   background-color: rgba(255, 68, 0, 0.788);
   padding: 5px;
@@ -488,14 +484,14 @@
 .home .bodyHome .homeSection2 {
   margin-top: 7%;
   background: transparent;
-  width: 955px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 7%;
 }
 
 .home .bodyHome .homeSection2 p {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   text-align: center;
   background: transparent;
@@ -504,7 +500,7 @@
 
 .home .bodyHome .homeSection2 p .link {
   text-decoration: none;
-  color: #4183D7;
+  color: #4183d7;
   background: transparent;
 }
 
@@ -514,8 +510,9 @@
 
 .home .bodyHome .footer {
   background-color: #afb1b0;
-  width: 1684px;
+  width: auto;
   margin-left: -50%;
+  margin-right: -24.7%;
   padding-left: 30%;
   padding-right: 10%;
   padding-top: 5%;
@@ -534,25 +531,37 @@
           justify-content: space-between;
 }
 
-.home .bodyHome .footer .haut .part1, .home .bodyHome .footer .haut .part2, .home .bodyHome .footer .haut .part3, .home .bodyHome .footer .haut .part4 {
+.home .bodyHome .footer .haut .part1,
+.home .bodyHome .footer .haut .part2,
+.home .bodyHome .footer .haut .part3,
+.home .bodyHome .footer .haut .part4 {
   width: 280px;
   margin-bottom: 2%;
 }
 
-.home .bodyHome .footer .haut .part1 h1, .home .bodyHome .footer .haut .part2 h1, .home .bodyHome .footer .haut .part3 h1, .home .bodyHome .footer .haut .part4 h1 {
+.home .bodyHome .footer .haut .part1 h1,
+.home .bodyHome .footer .haut .part2 h1,
+.home .bodyHome .footer .haut .part3 h1,
+.home .bodyHome .footer .haut .part4 h1 {
   font-size: 20px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   margin-bottom: -3%;
 }
 
-.home .bodyHome .footer .haut .part1 hr, .home .bodyHome .footer .haut .part2 hr, .home .bodyHome .footer .haut .part3 hr, .home .bodyHome .footer .haut .part4 hr {
+.home .bodyHome .footer .haut .part1 hr,
+.home .bodyHome .footer .haut .part2 hr,
+.home .bodyHome .footer .haut .part3 hr,
+.home .bodyHome .footer .haut .part4 hr {
   width: 280px;
 }
 
-.home .bodyHome .footer .haut .part1 h2, .home .bodyHome .footer .haut .part2 h2, .home .bodyHome .footer .haut .part3 h2, .home .bodyHome .footer .haut .part4 h2 {
+.home .bodyHome .footer .haut .part1 h2,
+.home .bodyHome .footer .haut .part2 h2,
+.home .bodyHome .footer .haut .part3 h2,
+.home .bodyHome .footer .haut .part4 h2 {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 .home .bodyHome .footer .bas {
@@ -587,6 +596,8 @@
 
 .home {
   padding-top: 17%;
+  width: 100%;
+  padding-left: 22%;
 }
 
 .home .WandP {
@@ -603,7 +614,7 @@
   padding-top: 5%;
   margin-top: -13%;
   margin-left: -10%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #202020;
 }
@@ -615,7 +626,7 @@
 }
 
 .home .WandP .welcomeText .annonceLink {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-size: 25px;
   text-align: center;
   font-weight: normal;
@@ -629,7 +640,7 @@
 }
 
 .home .WandP .welcomeText .descBtn {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-size: 13px;
   font-weight: normal;
   margin-top: 10px;
@@ -657,6 +668,7 @@
   bottom: -16px;
   -webkit-filter: blur(6px);
           filter: blur(6px);
+  width: 100%;
 }
 
 .home .WandP .main .iphone-body {
@@ -685,8 +697,8 @@
   margin-bottom: 120px;
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background-position: cover;
   margin-left: 70%;
 }
@@ -704,7 +716,7 @@
 }
 
 .home .WandP .main .iphone-body .contenu .contenuh1 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   text-align: left;
   font-size: 23px;
@@ -732,7 +744,7 @@
 
 .home .WandP .main .iphone-body .contenu .footerIphone span {
   position: relative;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   margin-left: 14.5%;
   font-size: 17px;
@@ -745,7 +757,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  border: .5rem solid  #484848;
+  border: 0.5rem solid #484848;
   border-radius: 3.5rem;
 }
 
@@ -755,7 +767,7 @@
   right: 0.3rem;
   top: 0.3rem;
   bottom: 0.3rem;
-  border: 1.2rem solid  #000000;
+  border: 1.2rem solid #000000;
   border-radius: 3.1rem;
 }
 
@@ -765,11 +777,11 @@
   right: 1.1rem;
   top: 1.1rem;
   bottom: 1.1rem;
-  border: .1rem solid  #484848;
+  border: 0.1rem solid #484848;
   border-radius: 2.5rem;
   -webkit-filter: blur(1px);
           filter: blur(1px);
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .home .WandP .main .round-shape-color2 {
@@ -778,9 +790,9 @@
   right: 0.7rem;
   top: 0.7rem;
   bottom: 0.7rem;
-  border: .2rem solid  #bcbcbc;
+  border: 0.2rem solid #bcbcbc;
   border-radius: 3.1rem;
-  opacity: .5;
+  opacity: 0.5;
   -webkit-filter: blur(1px);
           filter: blur(1px);
 }
@@ -801,7 +813,7 @@
   right: 3.5rem;
   width: 0.5rem;
   height: 0.5rem;
-  border: .1rem solid  #1e1f22;
+  border: 0.1rem solid #1e1f22;
   border-radius: 50%;
   background-image: linear-gradient(right, #091528, #2363a6);
   background-image: -webkit-gradient(linear, right top, left top, from(#091528), to(#2363a6));
@@ -812,20 +824,20 @@
   bottom: 0.8rem;
   right: 5rem;
   width: 3.5rem;
-  height: .3rem;
+  height: 0.3rem;
   background-color: #333;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
 
 .home .WandP .main .btn {
   position: absolute;
-  width: .3rem;
+  width: 0.3rem;
   height: 2rem;
   background-color: #484848;
-  left: -.2rem;
+  left: -0.2rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
-  border-bottom-left-radius: .3rem;
-  border-top-left-radius: .3rem;
+  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
   border-right: none;
 }
 
@@ -846,7 +858,7 @@
 .home .WandP .main .btn.power {
   top: 10rem;
   height: 4rem;
-  right: -.3rem;
+  right: -0.3rem;
   left: auto;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -870,7 +882,7 @@
   position: absolute;
   font-size: 16px;
   font-weight: normal;
-  font-family: 'Roboto',  sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .home .WandP .main .tt .top-right {
@@ -921,11 +933,11 @@
   font-weight: 300;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .home .WandP .main .top-center svg .date {
-  font-family: 'Roboto',  sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: white;
   padding-top: 1%;
@@ -957,7 +969,8 @@
   margin-right: -16.2rem;
 }
 
-.loginPage, .registerPage {
+.loginPage,
+.registerPage {
   padding-top: 8%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -968,7 +981,8 @@
           flex-direction: row;
 }
 
-.loginPage .snow, .registerPage .snow {
+.loginPage .snow,
+.registerPage .snow {
   margin-top: -5%;
   margin-right: -53.6%;
   width: 600px;
@@ -976,7 +990,10 @@
   padding-left: 23%;
 }
 
-.loginPage .contenuLoginPage, .loginPage .contenuRegisterPage, .registerPage .contenuLoginPage, .registerPage .contenuRegisterPage {
+.loginPage .contenuLoginPage,
+.loginPage .contenuRegisterPage,
+.registerPage .contenuLoginPage,
+.registerPage .contenuRegisterPage {
   margin-top: 1.5%;
   margin-left: auto;
   margin-right: auto;
@@ -987,7 +1004,14 @@
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
-.loginPage .contenuLoginPage .loginTop, .loginPage .contenuLoginPage .registerTop, .loginPage .contenuRegisterPage .loginTop, .loginPage .contenuRegisterPage .registerTop, .registerPage .contenuLoginPage .loginTop, .registerPage .contenuLoginPage .registerTop, .registerPage .contenuRegisterPage .loginTop, .registerPage .contenuRegisterPage .registerTop {
+.loginPage .contenuLoginPage .loginTop,
+.loginPage .contenuLoginPage .registerTop,
+.loginPage .contenuRegisterPage .loginTop,
+.loginPage .contenuRegisterPage .registerTop,
+.registerPage .contenuLoginPage .loginTop,
+.registerPage .contenuLoginPage .registerTop,
+.registerPage .contenuRegisterPage .loginTop,
+.registerPage .contenuRegisterPage .registerTop {
   padding-top: 7%;
   text-align: center;
   width: 350px;
@@ -995,21 +1019,41 @@
   margin-right: auto;
 }
 
-.loginPage .contenuLoginPage .loginTop h1, .loginPage .contenuLoginPage .registerTop h1, .loginPage .contenuRegisterPage .loginTop h1, .loginPage .contenuRegisterPage .registerTop h1, .registerPage .contenuLoginPage .loginTop h1, .registerPage .contenuLoginPage .registerTop h1, .registerPage .contenuRegisterPage .loginTop h1, .registerPage .contenuRegisterPage .registerTop h1 {
+.loginPage .contenuLoginPage .loginTop h1,
+.loginPage .contenuLoginPage .registerTop h1,
+.loginPage .contenuRegisterPage .loginTop h1,
+.loginPage .contenuRegisterPage .registerTop h1,
+.registerPage .contenuLoginPage .loginTop h1,
+.registerPage .contenuLoginPage .registerTop h1,
+.registerPage .contenuRegisterPage .loginTop h1,
+.registerPage .contenuRegisterPage .registerTop h1 {
   font-weight: normal;
   font-size: 30px;
 }
 
-.loginPage .contenuLoginPage .loginTop p, .loginPage .contenuLoginPage .registerTop p, .loginPage .contenuRegisterPage .loginTop p, .loginPage .contenuRegisterPage .registerTop p, .registerPage .contenuLoginPage .loginTop p, .registerPage .contenuLoginPage .registerTop p, .registerPage .contenuRegisterPage .loginTop p, .registerPage .contenuRegisterPage .registerTop p {
+.loginPage .contenuLoginPage .loginTop p,
+.loginPage .contenuLoginPage .registerTop p,
+.loginPage .contenuRegisterPage .loginTop p,
+.loginPage .contenuRegisterPage .registerTop p,
+.registerPage .contenuLoginPage .loginTop p,
+.registerPage .contenuLoginPage .registerTop p,
+.registerPage .contenuRegisterPage .loginTop p,
+.registerPage .contenuRegisterPage .registerTop p {
   font-size: 16px;
   margin-top: 2%;
 }
 
-.loginPage .contenuLoginPage .loginForm, .loginPage .contenuRegisterPage .loginForm, .registerPage .contenuLoginPage .loginForm, .registerPage .contenuRegisterPage .loginForm {
+.loginPage .contenuLoginPage .loginForm,
+.loginPage .contenuRegisterPage .loginForm,
+.registerPage .contenuLoginPage .loginForm,
+.registerPage .contenuRegisterPage .loginForm {
   margin-top: 10%;
 }
 
-.loginPage .contenuLoginPage .loginForm .errorsLogin, .loginPage .contenuRegisterPage .loginForm .errorsLogin, .registerPage .contenuLoginPage .loginForm .errorsLogin, .registerPage .contenuRegisterPage .loginForm .errorsLogin {
+.loginPage .contenuLoginPage .loginForm .errorsLogin,
+.loginPage .contenuRegisterPage .loginForm .errorsLogin,
+.registerPage .contenuLoginPage .loginForm .errorsLogin,
+.registerPage .contenuRegisterPage .loginForm .errorsLogin {
   color: red;
   margin-top: -5%;
   margin-left: -10%;
@@ -1018,7 +1062,10 @@
   margin-bottom: 9%;
 }
 
-.loginPage .contenuLoginPage .loginForm input, .loginPage .contenuRegisterPage .loginForm input, .registerPage .contenuLoginPage .loginForm input, .registerPage .contenuRegisterPage .loginForm input {
+.loginPage .contenuLoginPage .loginForm input,
+.loginPage .contenuRegisterPage .loginForm input,
+.registerPage .contenuLoginPage .loginForm input,
+.registerPage .contenuRegisterPage .loginForm input {
   margin-bottom: 10%;
   margin-left: -10%;
   height: 47px;
@@ -1030,14 +1077,20 @@
   outline: none;
 }
 
-.loginPage .contenuLoginPage .loginForm .forgetPassword, .loginPage .contenuRegisterPage .loginForm .forgetPassword, .registerPage .contenuLoginPage .loginForm .forgetPassword, .registerPage .contenuRegisterPage .loginForm .forgetPassword {
+.loginPage .contenuLoginPage .loginForm .forgetPassword,
+.loginPage .contenuRegisterPage .loginForm .forgetPassword,
+.registerPage .contenuLoginPage .loginForm .forgetPassword,
+.registerPage .contenuRegisterPage .loginForm .forgetPassword {
   margin-left: -10%;
   margin-top: -20px;
   font-size: 13px;
   color: #4183d7;
 }
 
-.loginPage .contenuLoginPage .loginForm button, .loginPage .contenuRegisterPage .loginForm button, .registerPage .contenuLoginPage .loginForm button, .registerPage .contenuRegisterPage .loginForm button {
+.loginPage .contenuLoginPage .loginForm button,
+.loginPage .contenuRegisterPage .loginForm button,
+.registerPage .contenuLoginPage .loginForm button,
+.registerPage .contenuRegisterPage .loginForm button {
   margin-top: 20px;
   margin-left: -10%;
   height: 47px;
@@ -1050,13 +1103,19 @@
   font-size: 15px;
 }
 
-.loginPage .contenuLoginPage .footerformulairelogin, .loginPage .contenuRegisterPage .footerformulairelogin, .registerPage .contenuLoginPage .footerformulairelogin, .registerPage .contenuRegisterPage .footerformulairelogin {
+.loginPage .contenuLoginPage .footerformulairelogin,
+.loginPage .contenuRegisterPage .footerformulairelogin,
+.registerPage .contenuLoginPage .footerformulairelogin,
+.registerPage .contenuRegisterPage .footerformulairelogin {
   margin-top: 10%;
   font-size: 14px;
   text-align: center;
 }
 
-.loginPage .contenuLoginPage .footerformulairelogin .linkregister, .loginPage .contenuRegisterPage .footerformulairelogin .linkregister, .registerPage .contenuLoginPage .footerformulairelogin .linkregister, .registerPage .contenuRegisterPage .footerformulairelogin .linkregister {
+.loginPage .contenuLoginPage .footerformulairelogin .linkregister,
+.loginPage .contenuRegisterPage .footerformulairelogin .linkregister,
+.registerPage .contenuLoginPage .footerformulairelogin .linkregister,
+.registerPage .contenuRegisterPage .footerformulairelogin .linkregister {
   color: #4183d7;
   text-decoration: none;
 }
@@ -1075,7 +1134,8 @@
   font-size: 13px;
 }
 
-.registerForm .formRegister .errorsRegisterEmail, .registerForm .formRegister .errorsRegisterPassword {
+.registerForm .formRegister .errorsRegisterEmail,
+.registerForm .formRegister .errorsRegisterPassword {
   margin-top: -7%;
   font-size: 13px;
   color: red;
@@ -1131,7 +1191,8 @@
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
-.profilePage .leftSide .imgProfile, .profilePage .leftSide img {
+.profilePage .leftSide .imgProfile,
+.profilePage .leftSide img {
   margin-left: 90px;
   margin-top: 35px;
   margin-bottom: 20px;
@@ -1168,14 +1229,15 @@
 }
 
 .profilePage .leftSide h1 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   margin-left: 5%;
   font-size: 20px;
   color: #3b3b3b;
 }
 
-.profilePage .leftSide button, .profilePage .leftSide .btnUpdate {
+.profilePage .leftSide button,
+.profilePage .leftSide .btnUpdate {
   margin-top: 1%;
   width: 220px;
   margin-left: 30%;
@@ -1191,7 +1253,7 @@
 
 .profilePage p {
   margin-top: -3%;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   margin-left: 5%;
   font-size: 15px;
@@ -1220,7 +1282,7 @@
 .profilePage .rightSide .titleAndBtnAnnonce h1 {
   margin-top: 10%;
   text-align: center;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   margin-left: 5%;
   font-size: 30px;
@@ -1236,7 +1298,7 @@
   margin-bottom: -5%;
   width: 250px;
   padding-top: 5px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-size: 17px;
   text-align: center;
   font-weight: normal;
@@ -1267,7 +1329,7 @@
 
 .profilePage .rightSideDash p {
   margin-top: auto;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
@@ -1287,14 +1349,14 @@
 .profilePage .rightSideDash .forFun h3 {
   font-size: 35px;
   font-weight: normal;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   line-height: 50px;
 }
 
 .profilePage .rightSideDash .forFun h4 {
   font-size: 25px;
   font-weight: bold;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 .profilePage .rightSideDash .total {
@@ -1322,7 +1384,10 @@
   background-color: #f9eac3;
 }
 
-.profilePage .rightSideDash .total .totalPub, .profilePage .rightSideDash .total .totalUser, .profilePage .rightSideDash .total .totalPost, .profilePage .rightSideDash .total .totalCom {
+.profilePage .rightSideDash .total .totalPub,
+.profilePage .rightSideDash .total .totalUser,
+.profilePage .rightSideDash .total .totalPost,
+.profilePage .rightSideDash .total .totalCom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1423,11 +1488,12 @@
   margin-right: 5%;
 }
 
-.profilePage .rightSideDash .total h1, .profilePage .rightSideDash .total p {
+.profilePage .rightSideDash .total h1,
+.profilePage .rightSideDash .total p {
   color: white;
   margin-top: 5%;
   text-align: center;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   margin-left: 5%;
   font-size: 20px;
@@ -1440,7 +1506,7 @@
 .profilePage .rightSideDash h2 {
   margin-top: -5%;
   text-align: center;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   margin-left: 5%;
   font-size: 30px;
@@ -1521,7 +1587,8 @@
           justify-content: center;
 }
 
-.addPostPage .contenuaddPostPage .formPart1, .addPostPage .contenuaddPostPage .formPart2 {
+.addPostPage .contenuaddPostPage .formPart1,
+.addPostPage .contenuaddPostPage .formPart2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1535,7 +1602,8 @@
   margin-top: 5%;
 }
 
-.addPostPage .contenuaddPostPage .formPart1 input, .addPostPage .contenuaddPostPage .formPart2 input {
+.addPostPage .contenuaddPostPage .formPart1 input,
+.addPostPage .contenuaddPostPage .formPart2 input {
   outline: none;
   border: 1px solid #ddd9d9;
   border-radius: 3px;
@@ -1544,23 +1612,28 @@
   font-size: 17px;
 }
 
-.addPostPage .contenuaddPostPage .formPart1 ::-webkit-input-placeholder, .addPostPage .contenuaddPostPage .formPart2 ::-webkit-input-placeholder {
+.addPostPage .contenuaddPostPage .formPart1 ::-webkit-input-placeholder,
+.addPostPage .contenuaddPostPage .formPart2 ::-webkit-input-placeholder {
   color: #5f5f5f;
 }
 
-.addPostPage .contenuaddPostPage .formPart1 :-ms-input-placeholder, .addPostPage .contenuaddPostPage .formPart2 :-ms-input-placeholder {
+.addPostPage .contenuaddPostPage .formPart1 :-ms-input-placeholder,
+.addPostPage .contenuaddPostPage .formPart2 :-ms-input-placeholder {
   color: #5f5f5f;
 }
 
-.addPostPage .contenuaddPostPage .formPart1 ::-ms-input-placeholder, .addPostPage .contenuaddPostPage .formPart2 ::-ms-input-placeholder {
+.addPostPage .contenuaddPostPage .formPart1 ::-ms-input-placeholder,
+.addPostPage .contenuaddPostPage .formPart2 ::-ms-input-placeholder {
   color: #5f5f5f;
 }
 
-.addPostPage .contenuaddPostPage .formPart1 ::placeholder, .addPostPage .contenuaddPostPage .formPart2 ::placeholder {
+.addPostPage .contenuaddPostPage .formPart1 ::placeholder,
+.addPostPage .contenuaddPostPage .formPart2 ::placeholder {
   color: #5f5f5f;
 }
 
-.addPostPage .contenuaddPostPage .formPart1 select, .addPostPage .contenuaddPostPage .formPart2 select {
+.addPostPage .contenuaddPostPage .formPart1 select,
+.addPostPage .contenuaddPostPage .formPart2 select {
   color: #5f5f5f;
   outline: none;
   border: 1px solid #ddd9d9;
@@ -1593,7 +1666,7 @@
   word-spacing: 7px;
   margin-left: 2%;
   margin-top: 5%;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: bold;
   font-size: 2.4rem;
   background-image: linear-gradient(60deg, #0c0c0c, #eef8ee);
@@ -1649,7 +1722,8 @@
   width: 300px;
 }
 
-.productsPage .allPosts .postallpost, .productsPage .allPosts .postallpostC {
+.productsPage .allPosts .postallpost,
+.productsPage .allPosts .postallpostC {
   padding-top: 2%;
   padding-left: 2%;
   margin-right: 5%;
@@ -1662,21 +1736,25 @@
   color: #3b3b3b;
 }
 
-.productsPage .allPosts .postallpost .btnfav, .productsPage .allPosts .postallpostC .btnfav {
+.productsPage .allPosts .postallpost .btnfav,
+.productsPage .allPosts .postallpostC .btnfav {
   background-color: transparent;
   border: none;
 }
 
-.productsPage .allPosts .postallpost .btnfav img, .productsPage .allPosts .postallpostC .btnfav img {
+.productsPage .allPosts .postallpost .btnfav img,
+.productsPage .allPosts .postallpostC .btnfav img {
   width: 20px;
   height: 20px;
 }
 
-.productsPage .allPosts .postallpost .block2, .productsPage .allPosts .postallpostC .block2 {
+.productsPage .allPosts .postallpost .block2,
+.productsPage .allPosts .postallpostC .block2 {
   height: 300px;
 }
 
-.productsPage .allPosts .postallpost .block2 .editSupp, .productsPage .allPosts .postallpostC .block2 .editSupp {
+.productsPage .allPosts .postallpost .block2 .editSupp,
+.productsPage .allPosts .postallpostC .block2 .editSupp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1687,11 +1765,13 @@
   width: 150px;
 }
 
-.productsPage .allPosts .postallpost .block2 h6, .productsPage .allPosts .postallpostC .block2 h6 {
+.productsPage .allPosts .postallpost .block2 h6,
+.productsPage .allPosts .postallpostC .block2 h6 {
   margin-left: -8%;
 }
 
-.productsPage .allPosts .postallpost .block2 img, .productsPage .allPosts .postallpostC .block2 img {
+.productsPage .allPosts .postallpost .block2 img,
+.productsPage .allPosts .postallpostC .block2 img {
   margin-top: -10%;
   margin-left: -8%;
   margin-bottom: 17%;
@@ -1727,7 +1807,7 @@
 }
 
 .productsPage .allPosts .entetePost h4 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   margin-left: 5%;
   margin-top: 10%;
@@ -1762,8 +1842,9 @@
   font-weight: normal;
 }
 
-.productsPage .allPosts .titlePost, .productsPage .allPosts .descPost {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+.productsPage .allPosts .titlePost,
+.productsPage .allPosts .descPost {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
@@ -1801,7 +1882,8 @@
           justify-content: right;
 }
 
-.productsPage .allPosts .deuxImg .Edit, .productsPage .allPosts .deuxImg .Supp {
+.productsPage .allPosts .deuxImg .Edit,
+.productsPage .allPosts .deuxImg .Supp {
   border: none;
   width: 20px;
   height: 20px;
@@ -1895,7 +1977,7 @@
 }
 
 .Mail .MailTo img {
-  margin-top: -.5%;
+  margin-top: -0.5%;
   width: 30px;
   height: 30px;
 }
@@ -2033,7 +2115,7 @@
   margin-left: 15%;
   margin-top: 5%;
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   width: 150px;
 }
@@ -2078,7 +2160,7 @@
 
 .tShop .partTotal h1 {
   margin-top: 10%;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-size: 30px;
   font-weight: normal;
 }
@@ -2098,14 +2180,14 @@
 }
 
 .tShop .partTotal .prix {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-size: 18px;
   font-weight: normal;
 }
 
 .tShop .partTotal .link {
   text-decoration: none;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-size: 18px;
   font-weight: normal;
   margin-top: 2%;
@@ -2155,7 +2237,7 @@
   width: 400px;
   padding-top: 10px !important;
   font-size: 20px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   color: white !important;
   height: 50px;
   background-image: none !important;
@@ -2180,7 +2262,7 @@
   width: 400px;
   padding-top: 10px !important;
   font-size: 20px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   color: white !important;
   height: 50px;
   background-image: none !important;
@@ -2212,7 +2294,7 @@
 }
 
 .done .bodyDone h1 {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   font-size: 30px;
   letter-spacing: 3px;
@@ -2224,7 +2306,7 @@
 }
 
 .done .bodyDone .homeLink {
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   font-size: 20px;
   text-decoration: none;
@@ -2249,7 +2331,7 @@
   letter-spacing: 5px;
   word-spacing: 7px;
   margin-left: 2%;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: bold;
   font-size: 2.4rem;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#008060), to(#eef8ee));
@@ -2282,13 +2364,13 @@
   color: #ffae00;
   font-weight: normal;
   font-size: 18px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 .mesCommandes .diva table tr td {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 .productsPage .SD {
@@ -2310,8 +2392,9 @@
           box-shadow: none !important;
 }
 
-.productsPage .allUsers, .productsPage .allUsersS {
-  margin-top: -.01%;
+.productsPage .allUsers,
+.productsPage .allUsersS {
+  margin-top: -0.01%;
   border-radius: 10px;
   -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
@@ -2322,7 +2405,8 @@
   padding-bottom: 2%;
 }
 
-.productsPage .allUsers table, .productsPage .allUsersS table {
+.productsPage .allUsers table,
+.productsPage .allUsersS table {
   border-collapse: separate;
   border-spacing: 15px;
   width: 900px;
@@ -2330,34 +2414,40 @@
   margin-left: auto;
 }
 
-.productsPage .allUsers table tr, .productsPage .allUsersS table tr {
+.productsPage .allUsers table tr,
+.productsPage .allUsersS table tr {
   border-bottom: 1px solid black;
 }
 
-.productsPage .allUsers table tr th, .productsPage .allUsersS table tr th {
+.productsPage .allUsers table tr th,
+.productsPage .allUsersS table tr th {
   font-weight: normal;
   font-size: 18px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
-.productsPage .allUsers table tr td, .productsPage .allUsersS table tr td {
+.productsPage .allUsers table tr td,
+.productsPage .allUsersS table tr td {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
-.productsPage .allUsers table .userPost td, .productsPage .allUsersS table .userPost td {
+.productsPage .allUsers table .userPost td,
+.productsPage .allUsersS table .userPost td {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
-.productsPage .allUsers table .userPost td button img, .productsPage .allUsersS table .userPost td button img {
+.productsPage .allUsers table .userPost td button img,
+.productsPage .allUsersS table .userPost td button img {
   width: 20px;
   height: 20px;
 }
 
-.productsPage .allUsers table .userPost .entetePost, .productsPage .allUsersS table .userPost .entetePost {
+.productsPage .allUsers table .userPost .entetePost,
+.productsPage .allUsersS table .userPost .entetePost {
   margin-top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2368,18 +2458,20 @@
           flex-direction: row;
 }
 
-.productsPage .allUsers table .userPost .entetePost .profilePic, .productsPage .allUsersS table .userPost .entetePost .profilePic {
+.productsPage .allUsers table .userPost .entetePost .profilePic,
+.productsPage .allUsersS table .userPost .entetePost .profilePic {
   width: 30px;
   height: 30px;
   border-radius: 50px;
 }
 
-.productsPage .allUsers table .userPost .entetePost h4, .productsPage .allUsersS table .userPost .entetePost h4 {
+.productsPage .allUsers table .userPost .entetePost h4,
+.productsPage .allUsersS table .userPost .entetePost h4 {
   margin-top: 7%;
   margin-left: 15%;
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
 .commandesPage .titrePost {
@@ -2387,7 +2479,7 @@
   word-spacing: 7px;
   margin-left: 2%;
   margin-top: 5%;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: bold;
   font-size: 2.4rem;
   background-image: linear-gradient(60deg, #0c0c0c, #eef8ee);
@@ -2414,7 +2506,8 @@
           box-shadow: none !important;
 }
 
-.commandesPage .allUsers, .commandesPage .allUsersS {
+.commandesPage .allUsers,
+.commandesPage .allUsersS {
   border-radius: 10px;
   -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
@@ -2425,7 +2518,8 @@
   padding-bottom: 2%;
 }
 
-.commandesPage .allUsers table, .commandesPage .allUsersS table {
+.commandesPage .allUsers table,
+.commandesPage .allUsersS table {
   border-collapse: separate;
   border-spacing: 20px;
   width: 1350px;
@@ -2433,31 +2527,36 @@
   margin-left: auto;
 }
 
-.commandesPage .allUsers table tr, .commandesPage .allUsersS table tr {
+.commandesPage .allUsers table tr,
+.commandesPage .allUsersS table tr {
   border-bottom: 1px solid black;
 }
 
-.commandesPage .allUsers table tr th, .commandesPage .allUsersS table tr th {
+.commandesPage .allUsers table tr th,
+.commandesPage .allUsersS table tr th {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
   color: #4d4c4c;
   font-weight: bold;
 }
 
-.commandesPage .allUsers table tr td, .commandesPage .allUsersS table tr td {
+.commandesPage .allUsers table tr td,
+.commandesPage .allUsersS table tr td {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
-.commandesPage .allUsers table .userPost td, .commandesPage .allUsersS table .userPost td {
+.commandesPage .allUsers table .userPost td,
+.commandesPage .allUsersS table .userPost td {
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
 }
 
-.commandesPage .allUsers table .userPost td .btn1, .commandesPage .allUsersS table .userPost td .btn1 {
+.commandesPage .allUsers table .userPost td .btn1,
+.commandesPage .allUsersS table .userPost td .btn1 {
   border: none;
   background-color: #e66480b0;
   outline: none !important;
@@ -2466,7 +2565,8 @@
   width: 100px;
 }
 
-.commandesPage .allUsers table .userPost td .btn2, .commandesPage .allUsersS table .userPost td .btn2 {
+.commandesPage .allUsers table .userPost td .btn2,
+.commandesPage .allUsersS table .userPost td .btn2 {
   width: 100px;
   padding: 5px;
   border: none;
@@ -2475,7 +2575,8 @@
   border-radius: 5px;
 }
 
-.commandesPage .allUsers table .userPost .entetePost, .commandesPage .allUsersS table .userPost .entetePost {
+.commandesPage .allUsers table .userPost .entetePost,
+.commandesPage .allUsersS table .userPost .entetePost {
   margin-top: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2486,17 +2587,219 @@
           flex-direction: row;
 }
 
-.commandesPage .allUsers table .userPost .entetePost .profilePic, .commandesPage .allUsersS table .userPost .entetePost .profilePic {
+.commandesPage .allUsers table .userPost .entetePost .profilePic,
+.commandesPage .allUsersS table .userPost .entetePost .profilePic {
   width: 30px;
   height: 30px;
   border-radius: 50px;
 }
 
-.commandesPage .allUsers table .userPost .entetePost h4, .commandesPage .allUsersS table .userPost .entetePost h4 {
+.commandesPage .allUsers table .userPost .entetePost h4,
+.commandesPage .allUsersS table .userPost .entetePost h4 {
   margin-top: 7%;
   margin-left: 15%;
   font-weight: normal;
   font-size: 15px;
-  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navBar {
+    width: 100%;
+  }
+  .navBar .searchNavBar {
+    display: none;
+  }
+  .navBar .bm-burger-button {
+    left: 89%;
+  }
+  .navBar .bm-menu-wrap {
+    left: 70px;
+  }
+  .navBar .Favoris,
+  .navBar .ShoppingCard,
+  .navBar .ProfDash,
+  .navBar .logIn,
+  .navBar .logout {
+    margin-left: 10px;
+  }
+  .home {
+    -webkit-box-shadow: #6aaf9e56 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+            box-shadow: #6aaf9e56 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-bottom-right-radius: 10%;
+    padding-bottom: 10%;
+    margin-left: -22%;
+    margin-right: 0;
+    width: auto;
+  }
+  .home .WandP {
+    margin-top: 19%;
+    margin-left: 17%;
+    width: auto;
+  }
+  .home .WandP .welcomeText h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 35px;
+    margin-bottom: 10%;
+  }
+  .home .WandP .welcomeText .annonceLink {
+    font-size: 25px;
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .home .WandP .welcomeText .descBtn {
+    font-size: 17px;
+    margin-top: 5%;
+  }
+  .home .main {
+    display: none !important;
+  }
+  .home .bodyHome {
+    width: auto;
+  }
+  .home .bodyHome .homeSection1 {
+    width: 250px;
+    margin-top: 3%;
+    padding-left: 10%;
+  }
+  .home .bodyHome .homeSection1 h1 {
+    font-size: 25px;
+  }
+  .home .bodyHome .homeSection1 .wrapper {
+    width: 320px;
+  }
+  .home .bodyHome .homeSection1-2 {
+    padding-top: 2%;
+    margin-top: 5%;
+    width: 390px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 400px;
+    padding-left: 10%;
+    border-radius: 0px;
+  }
+  .home .bodyHome .homeSection1-2 img {
+    display: none;
+  }
+  .home .bodyHome .homeSection1-2 h1,
+  .home .bodyHome .homeSection1-2 h2 {
+    margin-bottom: 12%;
+    width: 320px;
+  }
+  .home .bodyHome .homeSection1-2 .annonceLink {
+    font-size: 20px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .home .bodyHome .homeSection2 {
+    width: 310px;
+    padding-left: 1%;
+  }
+  .home .bodyHome .homeSection2 p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  .home .bodyHome .footer {
+    margin-left: 0;
+    margin-right: 0;
+    width: 390px;
+    padding-left: 7%;
+    font-size: 20px;
+  }
+  .home .bodyHome .footer .haut {
+    display: none;
+  }
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 22px;
+  left: 95%;
+  top: 25px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #008060;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #ff4400;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #c5c7bd;
+  left: -5px !important;
+  width: 30px !important;
+  height: 5px !important;
+  top: 20px !important;
+}
+
+/*
+ Sidebar wrapper styles
+ Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+ */
+.bm-menu-wrap {
+  position: fixed;
+  padding-right: -50%;
+  padding-right: 2% !important;
+  margin-left: 42%;
+  height: 100%;
+  width: 100px !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #008060;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #008060;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: transparent !important;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #d1d1d1;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

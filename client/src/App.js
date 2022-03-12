@@ -41,7 +41,7 @@ function App() {
     <div className="App">
 
       {/* <Register/> */}
-      <NavBar/>
+      <NavBar  pageWrapId={'page-wrap'} outerContainerId={'outer-container'}/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Clothing' element={<Clothing/>}/>
