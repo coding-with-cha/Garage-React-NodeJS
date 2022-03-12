@@ -8,8 +8,8 @@ import {Provider} from 'react-redux'
 import {BrowserRouter} from 'react-router-dom'
 import axios from 'axios';
 
-// axios.defaults.baseURL = 'https://garagedepo.herokuapp.com/'
-axios.defaults.baseURL = 'http://localhost:5000'
+axios.defaults.baseURL = 'https://garagedepo.herokuapp.com/'
+// axios.defaults.baseURL = 'http://localhost:5000'
 
 ReactDOM.render( 
   <BrowserRouter>
