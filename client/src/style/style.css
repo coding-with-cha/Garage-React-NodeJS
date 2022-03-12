@@ -85,7 +85,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 200%;
+  margin-top: 150%;
   margin-left: -20%;
   background: transparent;
 }
@@ -201,7 +201,7 @@
   outline: none;
   background: transparent;
   margin-top: 100%;
-  margin-left: -20%;
+  margin-left: 10% !important;
 }
 
 .navBar .logout img {
@@ -1565,6 +1565,7 @@
 
 .addPostPage {
   padding-top: 13%;
+  width: 100%;
 }
 
 .addPostPage .contenuaddPostPage {
@@ -2709,6 +2710,102 @@
     font-size: 20px;
   }
   .home .bodyHome .footer .haut {
+    display: none;
+  }
+  .loginPage .contenuLoginPage,
+  .loginPage .contenuRegisterPage,
+  .registerPage .contenuLoginPage,
+  .registerPage .contenuRegisterPage {
+    padding-top: 25%;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .addPostPage img {
+    display: none;
+  }
+  .addPostPage .contenuaddPostPage {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 100%;
+    padding-top: 30%;
+  }
+  .addPostPage .contenuaddPostPage .formPart1,
+  .addPostPage .contenuaddPostPage .formPart2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .addPostPage .contenuaddPostPage .formPart1 input,
+  .addPostPage .contenuaddPostPage .formPart1 select,
+  .addPostPage .contenuaddPostPage .formPart2 input,
+  .addPostPage .contenuaddPostPage .formPart2 select {
+    width: 350px;
+    margin-bottom: 7%;
+    padding: 10px;
+  }
+  .addPostPage .contenuaddPostPage .formPart1 :nth-child(1),
+  .addPostPage .contenuaddPostPage .formPart2 :nth-child(1) {
+    margin-top: -4%;
+  }
+  .productsPage {
+    width: 100%;
+  }
+  .productsPage .titrePost {
+    padding-top: 30%;
+    width: 600px;
+  }
+  .productsPage .allPosts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+  }
+  .productsPage .allPosts .postallpostC {
+    padding-left: 45%;
+    padding-top: 50%;
+    width: 300px !important;
+    height: 750px;
+    margin-bottom: 30%;
+  }
+  .productsPage .allPosts .postallpostC hr {
+    width: 270px;
+  }
+  .productsPage .allPosts .postallpostC .entetePost img {
+    width: 100px;
+    height: 100px;
+  }
+  .productsPage .allPosts .postallpostC .entetePost h4 {
+    font-size: 30px;
+    margin-top: 20%;
+  }
+  .productsPage .allPosts .postallpostC img {
+    width: 250px;
+    height: 250px;
+  }
+  .productsPage .allPosts .postallpostC .titlePost {
+    font-size: 30px;
+    margin-bottom: 10%;
+  }
+  .productsPage .allPosts .postallpostC .descPost, .productsPage .allPosts .postallpostC .prixPost, .productsPage .allPosts .postallpostC .villePost {
+    font-size: 22px;
+  }
+  .productsPage .allPosts .postallpostC button {
+    font-size: 20px;
+    width: 200px;
+    margin-left: 30px;
+  }
+  .Estimation {
     display: none;
   }
 }
