@@ -1660,6 +1660,7 @@
 
 .productsPage {
   margin-bottom: 10%;
+  width: 100%;
 }
 
 .productsPage .titrePost {
@@ -1684,6 +1685,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 
 .productsPage .allPosts .userPost {
@@ -2753,10 +2755,12 @@
   }
   .productsPage {
     width: 100%;
+    height: auto;
   }
   .productsPage .titrePost {
-    padding-top: 30%;
-    width: 600px;
+    font-size: 30px;
+    padding-top: 15%;
+    width: 400px;
   }
   .productsPage .allPosts {
     display: -webkit-box;
@@ -2767,8 +2771,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 13%;
     margin-top: 20%;
   }
   .productsPage .allPosts .postallpostC {

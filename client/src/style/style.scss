@@ -1280,6 +1280,7 @@
 // productsPage style
 .productsPage {
   margin-bottom: 10%;
+  width: 100%;
   .titrePost {
     letter-spacing: 5px;
     word-spacing: 7px;
@@ -1296,6 +1297,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     .userPost {
       position: relative;
       padding-top: 2%;
@@ -2191,16 +2193,17 @@
   }
   .productsPage{
     width: 100%;
+    height: auto;
     .titrePost{
-      padding-top: 30%;
-      width: 600px;
+      font-size: 30px;
+      padding-top: 15%;
+      width: 400px;
     }
     .allPosts{
       display: flex;
       flex-direction: column;
       width: 50px;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 13%;
       margin-top: 20%;
       .postallpostC{
         padding-left:45%;
