@@ -40,33 +40,34 @@ const Navbar = () => {
       <Menu>
         <Link to="/FavorisPage" className="Favoris">
           <img src={like} />
-          {/* <h1>Fovoris</h1> */}
+          <h1>Fovoris</h1>
         </Link>
         <Link to="/ShoppingCard" className="ShoppingCard">
           <img src={vide} />
+          <h1>Panier</h1>
         </Link>
         {isAuth && role === "admin" ? (
           <Link to="/Dashboard" className="ProfDash">
             <img src={profilePic} />
-            {/* <h1>Dashboard</h1> */}
+            <h1>Dashboard</h1>
           </Link>
         ) : isAuth && role === "user" ? (
           <Link to="/Profile" className="ProfDash">
             <img src={profilePic} />
-            {/* <h1>{name}</h1> */}
+            <h1>{name}</h1>
           </Link>
         ) : (
           <div className="logIn">
             <Link to="/Login" className="Link">
               <img src={logIn} />
-              {/* <h1>Se connecter</h1> */}
+              <h1>Se <br/>Connecter</h1>
             </Link>
           </div>
         )}
         {isAuth && (
           <button onClick={() => dispatch(logout())} className="logout">
             <img src={shutdown} />
-            {/* <h1>Se déconnecter</h1> */}
+            <h1>Se <br/>Déconnecter</h1>
           </button>
         )}
       </Menu>

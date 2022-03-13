@@ -52,51 +52,31 @@
       color: #008060;
     }
   }
-  .Favoris {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    margin-top: 150%;
-    margin-left: -20%;
-    background: transparent;
-    img {
-      width: 50px;
-      height: 50px;
-      margin-left: auto;
-      margin-right: auto;
-      background: transparent;
-    }
-    h1 {
-      background: transparent;
-      margin-top: -0.001%;
-      font-size: 15px;
-      font-family: "IBM Plex Sans Thai Looped", sans-serif;
-      font-weight: normal;
-      color: #c5c7bd;
-    }
-  }
   .logIn {
+    margin-top: 50%;
     background: transparent;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100%;
-    margin-left: -20%;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: -5% !important;
     .Link {
       background: transparent;
       text-decoration: none;
-      text-align: center;
       img {
-        background: transparent;
         width: 50px;
         height: 50px;
+        background: transparent;
+        margin-bottom: 5%;
       }
       h1 {
         background: transparent;
         margin-top: -0.001%;
-        font-size: 15px;
+        font-size: 20px;
         font-family: "IBM Plex Sans Thai Looped", sans-serif;
         font-weight: normal;
         color: #c5c7bd;
+        width: 200px;
       }
     }
   }
@@ -110,72 +90,30 @@
   .afterRotate {
     margin-left: 18%;
   }
-  .ProfDash {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100%;
-    margin-left: -20%;
-    background: transparent;
-    text-decoration: none;
-    img {
-      width: 50px;
-      height: 50px;
-      border-radius: 50px;
-      padding-top: -5px;
-      margin-left: auto;
-      margin-right: auto;
-      background: transparent;
-    }
-    h1 {
-      background: transparent;
-      margin-top: -0.001%;
-      font-size: 15px;
-      font-family: "IBM Plex Sans Thai Looped", sans-serif;
-      font-weight: normal;
-      color: #c5c7bd;
-    }
-  }
-  .logout {
-    display: flex;
-    flex-direction: column;
+  
+  .ShoppingCard,  .logout, .ProfDash, .Favoris{
+    margin-top: 50%;
     background: transparent;
     text-decoration: none;
     border: none;
     outline: none;
     background: transparent;
-    margin-top: 100%;
-    margin-left: 10% !important;
+    margin-left: -5% !important;
     img {
       width: 50px;
       height: 50px;
-      margin-left: auto;
-      margin-right: auto;
       background: transparent;
+      border-radius:15px;
+      margin-bottom: 5%;
     }
     h1 {
       background: transparent;
       margin-top: -0.001%;
-      font-size: 15px;
+      font-size: 20px;
       font-family: "IBM Plex Sans Thai Looped", sans-serif;
       font-weight: normal;
       color: #c5c7bd;
       width: 200px;
-    }
-  }
-  .ShoppingCard {
-    margin-top: 100%;
-    margin-left: -20%;
-    background: transparent;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    background: transparent;
-    img {
-      width: 50px;
-      height: 50px;
-      margin-left: auto;
-      margin-right: auto;
-      background: transparent;
     }
   }
 }

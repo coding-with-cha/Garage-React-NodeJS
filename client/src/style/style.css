@@ -76,69 +76,36 @@
   color: #008060;
 }
 
-.navBar .Favoris {
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 150%;
-  margin-left: -20%;
-  background: transparent;
-}
-
-.navBar .Favoris img {
-  width: 50px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  background: transparent;
-}
-
-.navBar .Favoris h1 {
-  background: transparent;
-  margin-top: -0.001%;
-  font-size: 15px;
-  font-family: "IBM Plex Sans Thai Looped", sans-serif;
-  font-weight: normal;
-  color: #c5c7bd;
-}
-
 .navBar .logIn {
+  margin-top: 50%;
   background: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 100%;
-  margin-left: -20%;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: -5% !important;
 }
 
 .navBar .logIn .Link {
   background: transparent;
   text-decoration: none;
-  text-align: center;
 }
 
 .navBar .logIn .Link img {
-  background: transparent;
   width: 50px;
   height: 50px;
+  background: transparent;
+  margin-bottom: 5%;
 }
 
 .navBar .logIn .Link h1 {
   background: transparent;
   margin-top: -0.001%;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   color: #c5c7bd;
+  width: 200px;
 }
 
 .navBar .rotateA {
@@ -154,90 +121,32 @@
   margin-left: 18%;
 }
 
-.navBar .ProfDash {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 100%;
-  margin-left: -20%;
-  background: transparent;
-  text-decoration: none;
-}
-
-.navBar .ProfDash img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  padding-top: -5px;
-  margin-left: auto;
-  margin-right: auto;
-  background: transparent;
-}
-
-.navBar .ProfDash h1 {
-  background: transparent;
-  margin-top: -0.001%;
-  font-size: 15px;
-  font-family: "IBM Plex Sans Thai Looped", sans-serif;
-  font-weight: normal;
-  color: #c5c7bd;
-}
-
-.navBar .logout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.navBar .ShoppingCard, .navBar .logout, .navBar .ProfDash, .navBar .Favoris {
+  margin-top: 50%;
   background: transparent;
   text-decoration: none;
   border: none;
   outline: none;
   background: transparent;
-  margin-top: 100%;
-  margin-left: 10% !important;
+  margin-left: -5% !important;
 }
 
-.navBar .logout img {
+.navBar .ShoppingCard img, .navBar .logout img, .navBar .ProfDash img, .navBar .Favoris img {
   width: 50px;
   height: 50px;
-  margin-left: auto;
-  margin-right: auto;
   background: transparent;
+  border-radius: 15px;
+  margin-bottom: 5%;
 }
 
-.navBar .logout h1 {
+.navBar .ShoppingCard h1, .navBar .logout h1, .navBar .ProfDash h1, .navBar .Favoris h1 {
   background: transparent;
   margin-top: -0.001%;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
   color: #c5c7bd;
   width: 200px;
-}
-
-.navBar .ShoppingCard {
-  margin-top: 100%;
-  margin-left: -20%;
-  background: transparent;
-  text-decoration: none;
-  border: none;
-  outline: none;
-  background: transparent;
-}
-
-.navBar .ShoppingCard img {
-  width: 50px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  background: transparent;
 }
 
 .home {
