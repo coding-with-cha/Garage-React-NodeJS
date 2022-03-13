@@ -77,7 +77,7 @@
 }
 
 .navBar .logIn {
-  margin-top: 50%;
+  margin-top: 30%;
   background: transparent;
   text-decoration: none;
   border: none;
@@ -122,7 +122,7 @@
 }
 
 .navBar .ShoppingCard, .navBar .logout, .navBar .ProfDash, .navBar .Favoris {
-  margin-top: 50%;
+  margin-top: 30%;
   background: transparent;
   text-decoration: none;
   border: none;
