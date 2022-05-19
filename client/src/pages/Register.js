@@ -16,8 +16,8 @@ const Register = () => {
   const { errors: userError } = useSelector((state) => state.user);
 
   const userInfo = (data) => {
-    const info = {...data, profilePic: file}
-    dispatch(registerUser({ info, navigate }));
+    // const info = {...data, profilePic: file}
+    dispatch(registerUser({ data, navigate }));
   };
   const [file, setFile] = useState({});
   return (

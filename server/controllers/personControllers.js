@@ -13,12 +13,12 @@ const register = async(req,res)=>{
         if(!errors.isEmpty()){
             return res.status(400).json({errors: errors.array()})
         }
-        const {name, email, password, profilePic} = req.body;
+        const {name, email, password} = req.body;
         const existPerson = await Person.findOne({email})
         if (existPerson) return res.status(400).json({msg:
             'you have already registered'});
         const hashedPassword = await bcrypt.hash(password,10);
-        const newPerson = await Person.create({name,email,password:hashedPassword,profilePic});
+        const newPerson = await Person.create({name,email,password:hashedPassword});
         res.status(201).json({msg:'user created'})
     }catch(error){
         console.log(error)
