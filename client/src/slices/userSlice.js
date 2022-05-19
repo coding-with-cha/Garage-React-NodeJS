@@ -3,11 +3,14 @@ import axios from 'axios'
 
 export const registerUser = createAsyncThunk('user/register', async(info,{rejectWithValue})=>{
     try {
-        const {data} = await axios.post(
-            '/api/person/register',
-            info.data);
-            info.navigate('/login')
-        return data;
+        const {profilePic} = info; 
+        console.log(profilePic)
+
+        // const {data} = await axios.post(
+        //     '/api/person/register',
+        //     info.data);
+        //     info.navigate('/login')
+        // return data;
     } catch (errors) {
         return rejectWithValue(errors.response.data.msg)
     }

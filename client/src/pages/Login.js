@@ -15,7 +15,7 @@ const Login = () => {
     if(isAuth && role === 'user') navigate('/profile')
     else if(isAuth && role === 'admin') navigate('/dashboard')
   },[]);
-  const {
+  const { 
     register:loginInfo,
     handleSubmit,
     formState: { errors }, 

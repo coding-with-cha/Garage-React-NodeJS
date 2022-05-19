@@ -26,7 +26,7 @@ const Recherche = () => {
   return <div className="recherchePage">
       <div className="recherchePageBody">
    
-        <input type="text" placeholder="Que cherchez-vous..." type="text"
+        <input type="text" placeholder="Que cherchez-vous..."
                        onChange={(e)=>handleSearch(e.target.value)}/>
 
       </div>

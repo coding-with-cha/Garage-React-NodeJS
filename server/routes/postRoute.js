@@ -43,7 +43,7 @@ router.put(
 );
 
 
-router.get('/',authMiddleware,getPosts);
+router.get('/',getPosts);
 router.post('/',authMiddleware,createPost);
 router.get('/withId',authMiddleware,getPostsUser);
 router.delete('/:postId',authMiddleware,deletePost)

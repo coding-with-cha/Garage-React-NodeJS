@@ -31,7 +31,7 @@ const getPosts = async(req, res)=>{
         res.status(500).json({msg:'something went wrong'});
     }
 }
-
+ 
 // @desc get posts for owner
 // @route GET /api/post/withId
 //@ access PRIVATE - owner
