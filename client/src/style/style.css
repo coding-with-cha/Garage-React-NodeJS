@@ -76,36 +76,69 @@
   color: #008060;
 }
 
-.navBar .logIn {
-  margin-top: 30%;
-  background: transparent;
+.navBar .Favoris {
   text-decoration: none;
-  border: none;
-  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.7%;
+  margin-left: 25%;
   background: transparent;
-  margin-left: -5% !important;
+}
+
+.navBar .Favoris img {
+  width: 27px;
+  height: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.navBar .Favoris h1 {
+  background: transparent;
+  margin-top: -0.001%;
+  font-size: 15px;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: normal;
+  color: #008060;
+}
+
+.navBar .logIn {
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.6%;
+  margin-left: 2%;
 }
 
 .navBar .logIn .Link {
   background: transparent;
   text-decoration: none;
+  text-align: center;
 }
 
 .navBar .logIn .Link img {
-  width: 50px;
-  height: 50px;
   background: transparent;
-  margin-bottom: 5%;
+  width: 25px;
+  height: 25px;
 }
 
 .navBar .logIn .Link h1 {
   background: transparent;
   margin-top: -0.001%;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
-  color: #c5c7bd;
-  width: 200px;
+  color: #008060;
 }
 
 .navBar .rotateA {
@@ -121,32 +154,89 @@
   margin-left: 18%;
 }
 
-.navBar .ShoppingCard, .navBar .logout, .navBar .ProfDash, .navBar .Favoris {
-  margin-top: 30%;
+.navBar .ProfDash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.48%;
+  margin-left: 2%;
+  background: transparent;
+  text-decoration: none;
+}
+
+.navBar .ProfDash img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  padding-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.navBar .ProfDash h1 {
+  background: transparent;
+  margin-top: -0.001%;
+  font-size: 15px;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: normal;
+  color: #008060;
+}
+
+.navBar .logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0.7%;
+  margin-left: 1.5%;
   background: transparent;
   text-decoration: none;
   border: none;
   outline: none;
   background: transparent;
-  margin-left: -5% !important;
 }
 
-.navBar .ShoppingCard img, .navBar .logout img, .navBar .ProfDash img, .navBar .Favoris img {
-  width: 50px;
-  height: 50px;
+.navBar .logout img {
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
   background: transparent;
-  border-radius: 15px;
-  margin-bottom: 5%;
 }
 
-.navBar .ShoppingCard h1, .navBar .logout h1, .navBar .ProfDash h1, .navBar .Favoris h1 {
+.navBar .logout h1 {
   background: transparent;
   margin-top: -0.001%;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
   font-weight: normal;
-  color: #c5c7bd;
-  width: 200px;
+  color: #008060;
+}
+
+.navBar .ShoppingCard {
+  margin-top: 0.9%;
+  margin-left: 1.5%;
+  background: transparent;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navBar .ShoppingCard img {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
 }
 
 .home {
@@ -424,53 +514,7 @@
   margin-right: -24.7%;
   padding-left: 30%;
   padding-right: 10%;
-  padding-top: 5%;
-}
-
-.home .bodyHome .footer .haut {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.home .bodyHome .footer .haut .part1,
-.home .bodyHome .footer .haut .part2,
-.home .bodyHome .footer .haut .part3,
-.home .bodyHome .footer .haut .part4 {
-  width: 280px;
-  margin-bottom: 2%;
-}
-
-.home .bodyHome .footer .haut .part1 h1,
-.home .bodyHome .footer .haut .part2 h1,
-.home .bodyHome .footer .haut .part3 h1,
-.home .bodyHome .footer .haut .part4 h1 {
-  font-size: 20px;
-  font-family: "IBM Plex Sans Thai Looped", sans-serif;
-  margin-bottom: -3%;
-}
-
-.home .bodyHome .footer .haut .part1 hr,
-.home .bodyHome .footer .haut .part2 hr,
-.home .bodyHome .footer .haut .part3 hr,
-.home .bodyHome .footer .haut .part4 hr {
-  width: 280px;
-}
-
-.home .bodyHome .footer .haut .part1 h2,
-.home .bodyHome .footer .haut .part2 h2,
-.home .bodyHome .footer .haut .part3 h2,
-.home .bodyHome .footer .haut .part4 h2 {
-  font-weight: normal;
-  font-size: 15px;
-  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  padding-top: 3%;
 }
 
 .home .bodyHome .footer .bas {
@@ -520,7 +564,7 @@
 }
 
 .home .WandP .welcomeText {
-  padding-top: 5%;
+  padding-top: 15%;
   margin-top: -13%;
   margin-left: -10%;
   font-family: "Roboto", sans-serif;
@@ -550,9 +594,41 @@
 
 .home .WandP .welcomeText .descBtn {
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: normal;
   margin-top: 10px;
+  color: orangered;
+  width: 310px;
+  -webkit-animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+          animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .home .WandP .main {
@@ -609,7 +685,7 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   background-position: cover;
-  margin-left: 70%;
+  margin-left: 130%;
 }
 
 .home .WandP .main .iphone-body .img {
@@ -1641,7 +1717,7 @@
   margin-right: 5%;
   margin-top: 2%;
   width: 250px;
-  height: 520px;
+  height: 550px;
   border-radius: 10px;
   -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
           box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
@@ -2709,7 +2785,9 @@
     font-size: 30px;
     margin-bottom: 10%;
   }
-  .productsPage .allPosts .postallpostC .descPost, .productsPage .allPosts .postallpostC .prixPost, .productsPage .allPosts .postallpostC .villePost {
+  .productsPage .allPosts .postallpostC .descPost,
+  .productsPage .allPosts .postallpostC .prixPost,
+  .productsPage .allPosts .postallpostC .villePost {
     font-size: 22px;
   }
   .productsPage .allPosts .postallpostC button {

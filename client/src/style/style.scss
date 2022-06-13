@@ -52,31 +52,51 @@
       color: #008060;
     }
   }
-  .logIn {
-    margin-top: 30%;
-    background: transparent;
+  .Favoris {
     text-decoration: none;
-    border: none;
-    outline: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.7%;
+    margin-left: 25%;
     background: transparent;
-    margin-left: -5% !important;
+    img {
+      width: 27px;
+      height: 27px;
+      margin-left: auto;
+      margin-right: auto;
+      background: transparent;
+    }
+    h1 {
+      background: transparent;
+      margin-top: -0.001%;
+      font-size: 15px;
+      font-family: "IBM Plex Sans Thai Looped", sans-serif;
+      font-weight: normal;
+      color: #008060;
+    }
+  }
+  .logIn {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.6%;
+    margin-left: 2%;
     .Link {
       background: transparent;
       text-decoration: none;
+      text-align: center;
       img {
-        width: 50px;
-        height: 50px;
         background: transparent;
-        margin-bottom: 5%;
+        width: 25px;
+        height: 25px;
       }
       h1 {
         background: transparent;
         margin-top: -0.001%;
-        font-size: 20px;
+        font-size: 15px;
         font-family: "IBM Plex Sans Thai Looped", sans-serif;
         font-weight: normal;
-        color: #c5c7bd;
-        width: 200px;
+        color: #008060;
       }
     }
   }
@@ -90,30 +110,72 @@
   .afterRotate {
     margin-left: 18%;
   }
-  
-  .ShoppingCard,  .logout, .ProfDash, .Favoris{
-    margin-top: 30%;
+  .ProfDash {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.48%;
+    margin-left: 2%;
+    background: transparent;
+    text-decoration: none;
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      padding-top: -5px;
+      margin-left: auto;
+      margin-right: auto;
+      background: transparent;
+    }
+    h1 {
+      background: transparent;
+      margin-top: -0.001%;
+      font-size: 15px;
+      font-family: "IBM Plex Sans Thai Looped", sans-serif;
+      font-weight: normal;
+      color: #008060;
+    }
+  }
+  .logout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.7%;
+    margin-left: 1.5%;
     background: transparent;
     text-decoration: none;
     border: none;
     outline: none;
     background: transparent;
-    margin-left: -5% !important;
+
     img {
-      width: 50px;
-      height: 50px;
+      width: 25px;
+      height: 25px;
+      margin-left: auto;
+      margin-right: auto;
       background: transparent;
-      border-radius:15px;
-      margin-bottom: 5%;
     }
     h1 {
       background: transparent;
       margin-top: -0.001%;
-      font-size: 20px;
+      font-size: 15px;
       font-family: "IBM Plex Sans Thai Looped", sans-serif;
       font-weight: normal;
-      color: #c5c7bd;
-      width: 200px;
+      color: #008060;
+    }
+  }
+  .ShoppingCard {
+    margin-top: 0.9%;
+    margin-left: 1.5%;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      background: transparent;
     }
   }
 }
@@ -346,32 +408,7 @@
       margin-right: -24.7%;
       padding-left: 30%;
       padding-right: 10%;
-      padding-top: 5%;
-      .haut {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        .part1,
-        .part2,
-        .part3,
-        .part4 {
-          width: 280px;
-          margin-bottom: 2%;
-          h1 {
-            font-size: 20px;
-            font-family: "IBM Plex Sans Thai Looped", sans-serif;
-            margin-bottom: -3%;
-          }
-          hr {
-            width: 280px;
-          }
-          h2 {
-            font-weight: normal;
-            font-size: 15px;
-            font-family: "IBM Plex Sans Thai Looped", sans-serif;
-          }
-        }
-      }
+      padding-top: 3%;
       .bas {
         display: flex;
         flex-direction: row;
@@ -406,7 +443,7 @@
     display: flex;
     flex-direction: row;
     .welcomeText {
-      padding-top: 5%;
+      padding-top: 15%;
       margin-top: -13%;
       margin-left: -10%;
       font-family: "Roboto", sans-serif;
@@ -432,9 +469,27 @@
       }
       .descBtn {
         font-family: "IBM Plex Sans Thai Looped", sans-serif;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: normal;
         margin-top: 10px;
+        color: orangered;
+        width: 310px;
+        animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+      }
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+      }
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
       }
     }
     .main {
@@ -470,7 +525,7 @@
         transform: scale(0.7);
         transition: all 0.5s;
         background-position: cover;
-        margin-left: 70%;
+        margin-left: 130%;
         .img {
           margin-left: 10%;
           border-radius: 3.5rem;
@@ -1274,7 +1329,7 @@
       margin-right: 5%;
       margin-top: 2%;
       width: 250px;
-      height: 520px;
+      height: 550px;
       border-radius: 10px;
       box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
         rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
@@ -2104,7 +2159,7 @@
     }
   }
   .addPostPage {
-    img{
+    img {
       display: none;
     }
     .contenuaddPostPage {
@@ -2129,51 +2184,63 @@
       }
     }
   }
-  .productsPage{
+  .productsPage {
     width: 100%;
     height: auto;
-    .titrePost{
+    .titrePost {
       font-size: 30px;
       padding-top: 15%;
       width: 400px;
     }
-    .allPosts{
+    .allPosts {
       display: flex;
       flex-direction: column;
       width: 50px;
       margin-left: 13%;
       margin-top: 20%;
-      .postallpostC{
-        padding-left:45%;
+      .postallpostC {
+        padding-left: 45%;
         padding-top: 50%;
         width: 300px !important;
         height: 750px;
         margin-bottom: 30%;
-        hr{
+        hr {
           width: 270px;
         }
-        .entetePost{
-          img{
+        .entetePost {
+          img {
             width: 100px;
             height: 100px;
           }
-          h4{
+          h4 {
             font-size: 30px;
             margin-top: 20%;
           }
         }
-        img{width: 250px; height: 250px;}
-        .titlePost{font-size:30px; margin-bottom:10%;}
-        .descPost, .prixPost, .villePost{font-size:22px;}
-        button{
-          font-size:20px;
+        img {
+          width: 250px;
+          height: 250px;
+        }
+        .titlePost {
+          font-size: 30px;
+          margin-bottom: 10%;
+        }
+        .descPost,
+        .prixPost,
+        .villePost {
+          font-size: 22px;
+        }
+        button {
+          font-size: 20px;
           width: 200px;
           margin-left: 30px;
         }
       }
     }
   }
-  .Estimation{display: none;}
+  .Estimation {
+    display: none;
+  }
 }
 
 /* Position and sizing of burger button */

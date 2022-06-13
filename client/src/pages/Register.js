@@ -16,10 +16,8 @@ const Register = () => {
   const { errors: userError } = useSelector((state) => state.user);
 
   const userInfo = (data) => {
-    // const info = {...data, profilePic: file}
     dispatch(registerUser({ data, navigate }));
   };
-  const [file, setFile] = useState({});
   return (
     <div className="registerPage">
       <div className="contenuRegisterPage">
@@ -63,12 +61,6 @@ const Register = () => {
             <br />
             <p className="errorsRegisterPassword">{errors.password?.message}</p>
             <p className="errorsRegister">{userError && userError}</p>
-            <input
-              type="file"
-              name=""
-              id=""
-              onChange={(e) => setFile(e.target.files[0])}
-            />
             <button>Register</button>
           </form>
         </div>

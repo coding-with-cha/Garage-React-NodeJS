@@ -56,7 +56,7 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route element={<ProtectedRoute/>}>
           <Route path='/profile' element={<Profile/>}/>
-          <Route path='/addPost' element={<AddPost/>}/>  
+          <Route path='/AddPost' element={<AddPost/>}/>  
           <Route path='/FavorisPage' element={<FavorisPage/>}/> 
           <Route path='/Payement' element={<Payement/>}/>
           <Route path='/Done' element={<Done/>}/> 
